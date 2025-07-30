@@ -1,5 +1,5 @@
 # 🚀 Enhanced Topic Modeling & Sentiment Analysis Dashboard
-#🔗 [Live Dashboard](https://topcmodellingv2.netlify.app/)
+
 An advanced customer review analysis system that combines traditional NLP techniques with modern Local Large Language Models (LLMs) for sophisticated topic modeling and sentiment analysis.
 
 ![Dashboard Preview](https://img.shields.io/badge/Status-Enhanced%20with%20Local%20LLM-brightgreen)
@@ -7,6 +7,7 @@ An advanced customer review analysis system that combines traditional NLP techni
 ![React](https://img.shields.io/badge/React-18+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+### 🔗 [Live Dashboard](https://topcmodellingv2.netlify.app/)
 ## ✨ Features
 
 ### 🎯 **Advanced Topic Modeling**
