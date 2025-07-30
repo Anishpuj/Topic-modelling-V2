@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Modeling & Sentiment Analysis Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .summary {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .topic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .topic-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .visualization-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .visualization-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .visualization-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .reviews-table {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+        }
+
+        /* Make the feedback column wider */
+        th:nth-child(2), td:nth-child(2) {
+            width: 300px;
+            text-align: left;
+        }
+
+        /* Style for column group headers */
+        th[colspan] {
+            background-color: #e9ecef;
+            font-weight: bold;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .sentiment-positive {
+            color: #28a745;
+        }
+
+        .sentiment-negative {
+            color: #dc3545;
+        }
+
+        .sentiment-neutral {
+            color: #6c757d;
+        }
+
+        .topic-tag {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-right: 5px;
+            color: white;
+        }
+
+        .topic-1 { background-color: #3498db; }
+        .topic-2 { background-color: #2ecc71; }
+        .topic-3 { background-color: #e74c3c; }
+        .topic-4 { background-color: #f1c40f; }
+        .topic-5 { background-color: #9b59b6; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Topic Modeling & Sentiment Analysis Dashboard</h1>
+            <p style="text-align: center;">Analysis of Customer Reviews</p>
+        </header>
+
+        <section class="summary">
+            <h2>Topic Summaries</h2>
+            <div class="topic-grid">
+                <div class="topic-card">
+                    <h3>Topic 1: Picture Quality & Features</h3>
+                    <p><strong>Description:</strong> Focuses on picture quality, sound, and value for money</p>
+                    <p><strong>Top Words:</strong> samsung, quality, sound, smart, picture, design</p>
+                    <p><strong>Number of Reviews:</strong> 8</p>
+                </div>
+                <div class="topic-card">
+                    <h3>Topic 2: Product & Delivery</h3>
+                    <p><strong>Description:</strong> Concerns about stands, mounting, and delivery</p>
+                    <p><strong>Top Words:</strong> good, quality, product, picture, sound, time</p>
+                    <p><strong>Number of Reviews:</strong> 32</p>
+                </div>
+                <div class="topic-card">
+                    <h3>Topic 3: Installation & Experience</h3>
+                    <p><strong>Description:</strong> Covers remote, smart features, and installation</p>
+                    <p><strong>Top Words:</strong> good, quality, picture, installation, led, overall</p>
+                    <p><strong>Number of Reviews:</strong> 8</p>
+                </div>
+                <div class="topic-card">
+                    <h3>Topic 4: Samsung Service</h3>
+                    <p><strong>Description:</strong> Issues with Samsung installation and service</p>
+                    <p><strong>Top Words:</strong> remote, quality, come, stand, samsung, installation</p>
+                    <p><strong>Number of Reviews:</strong> 11</p>
+                </div>
+                <div class="topic-card">
+                    <h3>Topic 5: Product Features</h3>
+                    <p><strong>Description:</strong> Problems with software, response time, and hanging</p>
+                    <p><strong>Top Words:</strong> good, amazon, product, delivery, thank, nice</p>
+                    <p><strong>Number of Reviews:</strong> 17</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="visualization-grid">
+            <div class="visualization-card">
+                <h3>Topic Distribution</h3>
+                <img src="topic_distribution.png" alt="Topic Distribution Bar Chart">
+            </div>
+            <div class="visualization-card">
+                <h3>Topic Distribution (Pie)</h3>
+                <img src="topic_pie_chart.png" alt="Topic Distribution Pie Chart">
+            </div>
+            <div class="visualization-card">
+                <h3>Sentiment Analysis</h3>
+                <img src="topic_sentiment_analysis.png" alt="Sentiment Analysis">
+            </div>
+            <div class="visualization-card">
+                <h3>Overall Sentiment</h3>
+                <img src="overall_sentiment_pie_chart.png" alt="Overall Sentiment">
+            </div>
+            <div class="visualization-card">
+                <h3>Topic Clusters</h3>
+                <img src="topic_clusters_2d.png" alt="Topic Clusters">
+            </div>
+            <div class="visualization-card">
+                <h3>Word Clouds</h3>
+                <img src="topic_wordclouds.png" alt="Word Clouds">
+            </div>
+        </section>
+
+        <section class="reviews-table">
+            <h2>Review Analysis</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Feedback</th>
+                        <th>Feedback rating</th>
+                        <th>Word count</th>
+                        <th colspan="4">Positive Words</th>
+                        <th colspan="4">Negative words</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>Word 1</th>
+                        <th>Word 2</th>
+                        <th>Word 3</th>
+                        <th>Word 4</th>
+                        <th>Word 1</th>
+                        <th>Word 2</th>
+                        <th>Word 3</th>
+                        <th>Word 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script>
+        // Add any interactive features here if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            // Example: Add hover effects to topic cards
+            const topicCards = document.querySelectorAll('.topic-card');
+            topicCards.forEach(card => {
+                card.addEventListener('mouseover', function() {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.transition = 'transform 0.3s ease';
+                });
+                card.addEventListener('mouseout', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

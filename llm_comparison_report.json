@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-07-25T09:55:59.652082",
+  "llm_comparison": {
+    "ollama": {
+      "pros": [
+        "High quality output",
+        "Multiple model options",
+        "Good for complex analysis"
+      ],
+      "cons": [
+        "Requires installation",
+        "Resource intensive",
+        "Slower processing"
+      ],
+      "best_for": "Detailed topic analysis with natural language descriptions"
+    },
+    "huggingface": {
+      "pros": [
+        "Wide model selection",
+        "Good customization",
+        "Active community"
+      ],
+      "cons": [
+        "Can be resource heavy",
+        "Model size limitations",
+        "Setup complexity"
+      ],
+      "best_for": "Custom fine-tuned models for specific domains"
+    },
+    "rule_based": {
+      "pros": [
+        "Fast processing",
+        "No dependencies",
+        "Predictable results",
+        "Transparent logic"
+      ],
+      "cons": [
+        "Limited creativity",
+        "Manual rule maintenance",
+        "Less natural language"
+      ],
+      "best_for": "Production systems requiring reliability and speed"
+    },
+    "local_api": {
+      "pros": [
+        "Flexible deployment",
+        "Custom models",
+        "Scalable"
+      ],
+      "cons": [
+        "Requires server setup",
+        "Network dependency",
+        "Additional complexity"
+      ],
+      "best_for": "Enterprise deployments with custom infrastructure"
+    }
+  },
+  "recommendations": {
+    "for_beginners": "rule_based",
+    "for_experimentation": "ollama",
+    "for_production": "rule_based",
+    "for_research": "huggingface"
+  }
+}

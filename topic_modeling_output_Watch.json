@@ -1,0 +1,1400 @@
+[
+    {
+        "topic_summaries": [
+            {
+                "topic": "Topic 1",
+                "top_words": [
+                    "watch",
+                    "gmt",
+                    "seiko",
+                    "quality",
+                    "look",
+                    "product",
+                    "bracelet",
+                    "great",
+                    "price",
+                    "solid"
+                ],
+                "description": "Reviews related to Watch - Topic 1",
+                "num_reviews": 13,
+                "sentiment": {
+                    "compound": 0.5050307692307693,
+                    "positive": 0.2306923076923077,
+                    "negative": 0.06938461538461538,
+                    "neutral": 0.699923076923077
+                }
+            },
+            {
+                "topic": "Topic 2",
+                "top_words": [
+                    "watch",
+                    "text",
+                    "review",
+                    "provided",
+                    "awesome",
+                    "good",
+                    "best",
+                    "nic",
+                    "dial",
+                    "size"
+                ],
+                "description": "Reviews related to Watch - Topic 2",
+                "num_reviews": 14,
+                "sentiment": {
+                    "compound": 0.3231214285714286,
+                    "positive": 0.4558571428571429,
+                    "negative": 0.04914285714285714,
+                    "neutral": 0.495
+                }
+            },
+            {
+                "topic": "Topic 3",
+                "top_words": [
+                    "watch",
+                    "perfect",
+                    "look",
+                    "gmt",
+                    "best",
+                    "timepiece",
+                    "looking",
+                    "great",
+                    "package",
+                    "feel"
+                ],
+                "description": "Reviews related to Watch - Topic 3",
+                "num_reviews": 13,
+                "sentiment": {
+                    "compound": 0.6235384615384617,
+                    "positive": 0.27515384615384614,
+                    "negative": 0.035,
+                    "neutral": 0.6897692307692308
+                }
+            },
+            {
+                "topic": "Topic 4",
+                "top_words": [
+                    "quality",
+                    "excellent",
+                    "must",
+                    "collection",
+                    "authorised",
+                    "vendor",
+                    "genuine",
+                    "provide",
+                    "service",
+                    "packaging"
+                ],
+                "description": "Reviews related to Watch - Topic 4",
+                "num_reviews": 6,
+                "sentiment": {
+                    "compound": 0.2235666666666667,
+                    "positive": 0.204,
+                    "negative": 0.0,
+                    "neutral": 0.7959999999999999
+                }
+            },
+            {
+                "topic": "Topic 5",
+                "top_words": [
+                    "good",
+                    "watch",
+                    "look",
+                    "great",
+                    "must",
+                    "enthusiast"
+                ],
+                "description": "Reviews related to Watch - Topic 5",
+                "num_reviews": 3,
+                "sentiment": {
+                    "compound": 0.5465666666666668,
+                    "positive": 0.4713333333333334,
+                    "negative": 0.0,
+                    "neutral": 0.5286666666666667
+                }
+            }
+        ]
+    },
+    {
+        "review": "Looks great and is very good.",
+        "sentences": [
+            "Looks great and is very good."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "watch",
+            "look",
+            "great",
+            "must",
+            "enthusiast"
+        ],
+        "sentiment": {
+            "compound": 0.807,
+            "positive": 0.646,
+            "negative": 0.0,
+            "neutral": 0.354
+        }
+    },
+    {
+        "review": "The watch is very good.",
+        "sentences": [
+            "The watch is very good."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "watch",
+            "look",
+            "great",
+            "must",
+            "enthusiast"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.444,
+            "negative": 0.0,
+            "neutral": 0.556
+        }
+    },
+    {
+        "review": "Top notch quality for the price paid. It is the most affordable Mechanical GMT watch from a well reputed brand. Compared with Rolex GMT Master II, the Seiko offers similar functionality at a fraction of the price. The only downside is that it has a Seiko hardlex crystal instead of sapphire. Accuracy and functionality are excellent.",
+        "sentences": [
+            "Top notch quality for the price paid.",
+            "It is the most affordable Mechanical GMT watch from a well reputed brand.",
+            "Compared with Rolex GMT Master II, the Seiko offers similar functionality at a fraction of the price.",
+            "The only downside is that it has a Seiko hardlex crystal instead of sapphire.",
+            "Accuracy and functionality are excellent."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.6808,
+            "positive": 0.13,
+            "negative": 0.034,
+            "neutral": 0.836
+        }
+    },
+    {
+        "review": "NIC watch. Dial size is little small.",
+        "sentences": [
+            "NIC watch.",
+            "Dial size is little small."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Very good",
+        "sentences": [
+            "Very good"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.762,
+            "negative": 0.0,
+            "neutral": 0.238
+        }
+    },
+    {
+        "review": "Best watch",
+        "sentences": [
+            "Best watch"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.6369,
+            "positive": 0.808,
+            "negative": 0.0,
+            "neutral": 0.192
+        }
+    },
+    {
+        "review": "As it's a Seiko, the feel hits different to wear it. The prestigious brand value, the classy look (better in real than image). A perfect watch. Go for it, you wont regret.",
+        "sentences": [
+            "As it's a Seiko, the feel hits different to wear it.",
+            "The prestigious brand value, the classy look (better in real than image).",
+            "A perfect watch.",
+            "Go for it, you wont regret."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.7351,
+            "positive": 0.238,
+            "negative": 0.074,
+            "neutral": 0.688
+        }
+    },
+    {
+        "review": "My Seiko watch is not working. Its under 2 years warranty. I had purchased it on Jan 2024. Kindly replace.",
+        "sentences": [
+            "My Seiko watch is not working.",
+            "Its under 2 years warranty.",
+            "I had purchased it on Jan 2024.",
+            "Kindly replace."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.4939,
+            "positive": 0.158,
+            "negative": 0.0,
+            "neutral": 0.842
+        }
+    },
+    {
+        "review": "Good",
+        "sentences": [
+            "Good"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "A must have to your collection.",
+        "sentences": [
+            "A must have to your collection."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "quality",
+            "excellent",
+            "must",
+            "collection",
+            "authorised",
+            "vendor",
+            "genuine",
+            "provide",
+            "service",
+            "packaging"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Watch Quality: Watch is good but no concrete way to confirm authenticity, apart from dual language date. Not suitable for big dial lovers. Although it's 37.3MM, it looks a bit small. Classy and elegant with a retro vibe. Power reserve around 80 hrs. Packaging: Worst packaging, no cushioning. Lucky it wasnt damaged. Overall: Watch seemed like an old 2022 showpiece, no protective layer, bad unboxing experience. Didn't feel worth 30K.",
+        "sentences": [
+            "Watch Quality: Watch is good but no concrete way to confirm authenticity, apart from dual language date.",
+            "Not suitable for big dial lovers.",
+            "Although it's 37.3MM, it looks a bit small.",
+            "Classy and elegant with a retro vibe.",
+            "Power reserve around 80 hrs.",
+            "Packaging: Worst packaging, no cushioning.",
+            "Lucky it wasnt damaged.",
+            "Overall: Watch seemed like an old 2022 showpiece, no protective layer, bad unboxing experience.",
+            "Didn't feel worth 30K."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": -0.4852,
+            "positive": 0.213,
+            "negative": 0.244,
+            "neutral": 0.544
+        }
+    },
+    {
+        "review": "Absolutely loved the piece.",
+        "sentences": [
+            "Absolutely loved the piece."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.6361,
+            "positive": 0.583,
+            "negative": 0.0,
+            "neutral": 0.417
+        }
+    },
+    {
+        "review": "Everything is perfect except packaging. Watch comes in a cheap looking paper box.",
+        "sentences": [
+            "Everything is perfect except packaging.",
+            "Watch comes in a cheap looking paper box."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.5719,
+            "positive": 0.252,
+            "negative": 0.0,
+            "neutral": 0.748
+        }
+    },
+    {
+        "review": "Quality and the finishing of the watch is top notch. Happy to have it as my 1st automatic watch.",
+        "sentences": [
+            "Quality and the finishing of the watch is top notch.",
+            "Happy to have it as my 1st automatic watch."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.6705,
+            "positive": 0.244,
+            "negative": 0.0,
+            "neutral": 0.756
+        }
+    },
+    {
+        "review": "Excellent quality.",
+        "sentences": [
+            "Excellent quality."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "quality",
+            "excellent",
+            "must",
+            "collection",
+            "authorised",
+            "vendor",
+            "genuine",
+            "provide",
+            "service",
+            "packaging"
+        ],
+        "sentiment": {
+            "compound": 0.5719,
+            "positive": 0.787,
+            "negative": 0.0,
+            "neutral": 0.213
+        }
+    },
+    {
+        "review": "Warm looks. Love it.",
+        "sentences": [
+            "Warm looks.",
+            "Love it."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.7269,
+            "positive": 0.753,
+            "negative": 0.0,
+            "neutral": 0.247
+        }
+    },
+    {
+        "review": "Very happy with the purchase. Another high quality product from Seiko. Automatic movement works perfectly. Really wish it had sapphire glass.",
+        "sentences": [
+            "Very happy with the purchase.",
+            "Another high quality product from Seiko.",
+            "Automatic movement works perfectly.",
+            "Really wish it had sapphire glass."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.9039,
+            "positive": 0.383,
+            "negative": 0.0,
+            "neutral": 0.617
+        }
+    },
+    {
+        "review": "As someone working with 2 time zones, I appreciate the utility of the GMT hand. Solid watch. Shoutout to Mr. Amit from Rama Watch Co. for his excellent support and personal QC before dispatch.",
+        "sentences": [
+            "As someone working with 2 time zones, I appreciate the utility of the GMT hand.",
+            "Solid watch.",
+            "Shoutout to Mr. Amit from Rama Watch Co. for his excellent support and personal QC before dispatch."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.9169,
+            "positive": 0.34,
+            "negative": 0.0,
+            "neutral": 0.66
+        }
+    },
+    {
+        "review": "Pros: Solid stainless steel including bracelet, excellent darkness visibility, accurate to ±15-30 secs/day, GMT hand, antimagnetic, water-resistant to 100m. Cons: Bezel could have minute markers instead of 24-hour markings. Not Swiss-made but a great bargain for the price.",
+        "sentences": [
+            "Pros: Solid stainless steel including bracelet, excellent darkness visibility, accurate to ±15-30 secs/day, GMT hand, antimagnetic, water-resistant to 100m.",
+            "Cons: Bezel could have minute markers instead of 24-hour markings.",
+            "Not Swiss-made but a great bargain for the price."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.0023,
+            "positive": 0.177,
+            "negative": 0.132,
+            "neutral": 0.691
+        }
+    },
+    {
+        "review": "Seiko has come up again with a very stylish watch that can revive their legendary SKX collection. This watch looks fantastic with this jubilee bracelet and blue dial with dual tone outer rim. This watch is for those watch enthusiasts who want a cheaper alternative of Rolex Batman with its own identity and elements. Seiko GMT 'blueberry' is the best watch of 2022, no doubt about that. Don't hesitate to treat yourself with this gem.",
+        "sentences": [
+            "Seiko has come up again with a very stylish watch that can revive their legendary SKX collection.",
+            "This watch looks fantastic with this jubilee bracelet and blue dial with dual tone outer rim.",
+            "This watch is for those watch enthusiasts who want a cheaper alternative of Rolex Batman with its own identity and elements.",
+            "Seiko GMT 'blueberry' is the best watch of 2022, no doubt about that.",
+            "Don't hesitate to treat yourself with this gem."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.8297,
+            "positive": 0.181,
+            "negative": 0.08,
+            "neutral": 0.738
+        }
+    },
+    {
+        "review": "Loved the watch, but was not satisfied with the GMT hand (caller GMT). I ended up purchasing Presage Sharp Edged Series GMT - SPB221J1 - A true GMT watch.",
+        "sentences": [
+            "Loved the watch, but was not satisfied with the GMT hand (caller GMT).",
+            "I ended up purchasing Presage Sharp Edged Series GMT - SPB221J1 - A true GMT watch."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.8152,
+            "positive": 0.303,
+            "negative": 0.087,
+            "neutral": 0.61
+        }
+    },
+    {
+        "review": "This watch impresses with its design and practical functionality. The durable build and attention to detail make it a stylish and reliable companion for both casual and formal occasions.",
+        "sentences": [
+            "This watch impresses with its design and practical functionality.",
+            "The durable build and attention to detail make it a stylish and reliable companion for both casual and formal occasions."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.5994,
+            "positive": 0.159,
+            "negative": 0.0,
+            "neutral": 0.841
+        }
+    },
+    {
+        "review": "Seiko's one of the best timepieces. The day I saw this timepiece I decided to buy it. The automatic machine, the best part of this timepiece is its bracelet and stunning look. I'm so happy to have a great timepiece in my watch collection.",
+        "sentences": [
+            "Seiko's one of the best timepieces.",
+            "The day I saw this timepiece I decided to buy it.",
+            "The automatic machine, the best part of this timepiece is its bracelet and stunning look.",
+            "I'm so happy to have a great timepiece in my watch collection."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.9676,
+            "positive": 0.355,
+            "negative": 0.0,
+            "neutral": 0.645
+        }
+    },
+    {
+        "review": "The finishing of the dial and bracelet is awesome. A mechanical GMT at this price point is worth it.",
+        "sentences": [
+            "The finishing of the dial and bracelet is awesome.",
+            "A mechanical GMT at this price point is worth it."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.7184,
+            "positive": 0.273,
+            "negative": 0.0,
+            "neutral": 0.727
+        }
+    },
+    {
+        "review": "The watch just looks stunning! Its an amazing balance between being subtle and flashy. The size is perfect too. It might seem thick from the specs but it sits on the wrist very well and is quite comfortable.",
+        "sentences": [
+            "The watch just looks stunning!",
+            "Its an amazing balance between being subtle and flashy.",
+            "The size is perfect too.",
+            "It might seem thick from the specs but it sits on the wrist very well and is quite comfortable."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.9303,
+            "positive": 0.31,
+            "negative": 0.0,
+            "neutral": 0.69
+        }
+    },
+    {
+        "review": "The quality is excellent but the authorised vendor should be genuine and provide quality service.",
+        "sentences": [
+            "The quality is excellent but the authorised vendor should be genuine and provide quality service."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "quality",
+            "excellent",
+            "must",
+            "collection",
+            "authorised",
+            "vendor",
+            "genuine",
+            "provide",
+            "service",
+            "packaging"
+        ],
+        "sentiment": {
+            "compound": 0.3291,
+            "positive": 0.144,
+            "negative": 0.0,
+            "neutral": 0.856
+        }
+    },
+    {
+        "review": "Great product from Seiko, great quality. But awful packaging by Amazon. The agent just had the box in his hand with no proper cover.",
+        "sentences": [
+            "Great product from Seiko, great quality.",
+            "But awful packaging by Amazon.",
+            "The agent just had the box in his hand with no proper cover."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.5647,
+            "positive": 0.316,
+            "negative": 0.188,
+            "neutral": 0.497
+        }
+    },
+    {
+        "review": "If you are looking for a style statement, this is the watch for you.",
+        "sentences": [
+            "If you are looking for a style statement, this is the watch for you."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Gorgeous looking and feels quite sturdy. Not sure how to set GMT +8 considering India is 30 minutes off.",
+        "sentences": [
+            "Gorgeous looking and feels quite sturdy.",
+            "Not sure how to set GMT +8 considering India is 30 minutes off."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.4165,
+            "positive": 0.172,
+            "negative": 0.096,
+            "neutral": 0.732
+        }
+    },
+    {
+        "review": "No words.",
+        "sentences": [
+            "No words."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": -0.296,
+            "positive": 0.0,
+            "negative": 0.688,
+            "neutral": 0.312
+        }
+    },
+    {
+        "review": "Watch is awesome. Presidential steel bracelet adds beauty to the watch. Not mentioning about features as it is available online in various sites. I liked the watch and found it VFM.",
+        "sentences": [
+            "Watch is awesome.",
+            "Presidential steel bracelet adds beauty to the watch.",
+            "Not mentioning about features as it is available online in various sites.",
+            "I liked the watch and found it VFM."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.8934,
+            "positive": 0.284,
+            "negative": 0.0,
+            "neutral": 0.716
+        }
+    },
+    {
+        "review": "Packaging needs to improve to benchmark the watch.",
+        "sentences": [
+            "Packaging needs to improve to benchmark the watch."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "quality",
+            "excellent",
+            "must",
+            "collection",
+            "authorised",
+            "vendor",
+            "genuine",
+            "provide",
+            "service",
+            "packaging"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 0.293,
+            "negative": 0.0,
+            "neutral": 0.707
+        }
+    },
+    {
+        "review": "It is suitable for any wrist size. Mine is 6.5 inches and it fits like a cherry on cake.",
+        "sentences": [
+            "It is suitable for any wrist size.",
+            "Mine is 6.5 inches and it fits like a cherry on cake."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.3612,
+            "positive": 0.128,
+            "negative": 0.0,
+            "neutral": 0.872
+        }
+    },
+    {
+        "review": "Everything went smoothly, only watch that's priced same as overseas. Highly recommend this watch. Best GMT at this price point.",
+        "sentences": [
+            "Everything went smoothly, only watch that's priced same as overseas.",
+            "Highly recommend this watch.",
+            "Best GMT at this price point."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.7902,
+            "positive": 0.28,
+            "negative": 0.0,
+            "neutral": 0.72
+        }
+    },
+    {
+        "review": "Quality.",
+        "sentences": [
+            "Quality."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "quality",
+            "excellent",
+            "must",
+            "collection",
+            "authorised",
+            "vendor",
+            "genuine",
+            "provide",
+            "service",
+            "packaging"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "[No text review provided.]",
+        "sentences": [
+            "[No text review provided.]"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Best.",
+        "sentences": [
+            "Best."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.6369,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Amazon has become a hub of scam. Rs 35,000 watch doesn't work properly  shows 4 hour difference in time in every 24 hours. Amazon doesn't pick up return or refund if purchase is a high-value product. I will never buy any high-value product again on Amazon. Their customer support is trained to scam customers when they purchase expensive products.",
+        "sentences": [
+            "Amazon has become a hub of scam.",
+            "Rs 35,000 watch doesn't work properly  shows 4 hour difference in time in every 24 hours.",
+            "Amazon doesn't pick up return or refund if purchase is a high-value product.",
+            "I will never buy any high-value product again on Amazon.",
+            "Their customer support is trained to scam customers when they purchase expensive products."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": -0.3818,
+            "positive": 0.121,
+            "negative": 0.115,
+            "neutral": 0.763
+        }
+    },
+    {
+        "review": "Awesome.... Simply awesome.",
+        "sentences": [
+            "Awesome....",
+            "Simply awesome."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.6249,
+            "positive": 0.672,
+            "negative": 0.0,
+            "neutral": 0.328
+        }
+    },
+    {
+        "review": "[No text review provided.]",
+        "sentences": [
+            "[No text review provided.]"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Its awesome.",
+        "sentences": [
+            "Its awesome."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.6249,
+            "positive": 0.804,
+            "negative": 0.0,
+            "neutral": 0.196
+        }
+    },
+    {
+        "review": "[No text review provided.]",
+        "sentences": [
+            "[No text review provided.]"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "watch",
+            "text",
+            "review",
+            "provided",
+            "awesome",
+            "good",
+            "best",
+            "nic",
+            "dial",
+            "size"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "This reissue of Seiko Sports 5 boasts a great look. Must buy for Seiko fans who look out for a great value automatic watch.",
+        "sentences": [
+            "This reissue of Seiko Sports 5 boasts a great look.",
+            "Must buy for Seiko fans who look out for a great value automatic watch."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.891,
+            "positive": 0.371,
+            "negative": 0.0,
+            "neutral": 0.629
+        }
+    },
+    {
+        "review": "When I got the package, I thought it had been opened before. The package tape was torn and not at all good. After receiving the package, I checked the watch  it was perfect and looked great. The watch is good, but the packaging is the worst.",
+        "sentences": [
+            "When I got the package, I thought it had been opened before.",
+            "The package tape was torn and not at all good.",
+            "After receiving the package, I checked the watch  it was perfect and looked great.",
+            "The watch is good, but the packaging is the worst."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": -0.6864,
+            "positive": 0.093,
+            "negative": 0.201,
+            "neutral": 0.705
+        }
+    },
+    {
+        "review": "Used product received.",
+        "sentences": [
+            "Used product received."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "quality",
+            "excellent",
+            "must",
+            "collection",
+            "authorised",
+            "vendor",
+            "genuine",
+            "provide",
+            "service",
+            "packaging"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "You won't find a better value-for-money watch than this, especially with a GMT feature. One of my friends said it looks like a Rolex GMT Master 2 Batman. You can track 3 different time zones on your wrist. Beats the Apple Watch in that category. The movement is solid and reliable, though not as accurate as some of the more expensive watches. Its still rock solid. My only issue is Seiko could have used a Sapphire crystal instead of Hardlex, which feels cheap. Also, the bracelet clasp could have been more solid; it's just stamped stainless steel. Still, the bracelet is very comfortable to wear.",
+        "sentences": [
+            "You won't find a better value-for-money watch than this, especially with a GMT feature.",
+            "One of my friends said it looks like a Rolex GMT Master 2 Batman.",
+            "You can track 3 different time zones on your wrist.",
+            "Beats the Apple Watch in that category.",
+            "The movement is solid and reliable, though not as accurate as some of the more expensive watches.",
+            "Its still rock solid.",
+            "My only issue is Seiko could have used a Sapphire crystal instead of Hardlex, which feels cheap.",
+            "Also, the bracelet clasp could have been more solid; it's just stamped stainless steel.",
+            "Still, the bracelet is very comfortable to wear."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "watch",
+            "gmt",
+            "seiko",
+            "quality",
+            "look",
+            "product",
+            "bracelet",
+            "great",
+            "price",
+            "solid"
+        ],
+        "sentiment": {
+            "compound": 0.862,
+            "positive": 0.129,
+            "negative": 0.022,
+            "neutral": 0.849
+        }
+    },
+    {
+        "review": "Ohhh just look at the watch. No words if you are a watch lover. The best GMT automatic in a budget.",
+        "sentences": [
+            "Ohhh just look at the watch.",
+            "No words if you are a watch lover.",
+            "The best GMT automatic in a budget."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.7783,
+            "positive": 0.305,
+            "negative": 0.084,
+            "neutral": 0.611
+        }
+    },
+    {
+        "review": "Must have for all watch enthusiasts.",
+        "sentences": [
+            "Must have for all watch enthusiasts."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "watch",
+            "look",
+            "great",
+            "must",
+            "enthusiast"
+        ],
+        "sentiment": {
+            "compound": 0.34,
+            "positive": 0.324,
+            "negative": 0.0,
+            "neutral": 0.676
+        }
+    },
+    {
+        "review": "Great looking watch, keeps perfect time.",
+        "sentences": [
+            "Great looking watch, keeps perfect time."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "watch",
+            "perfect",
+            "look",
+            "gmt",
+            "best",
+            "timepiece",
+            "looking",
+            "great",
+            "package",
+            "feel"
+        ],
+        "sentiment": {
+            "compound": 0.8316,
+            "positive": 0.661,
+            "negative": 0.0,
+            "neutral": 0.339
+        }
+    }
+]

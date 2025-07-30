@@ -1,0 +1,1408 @@
+[
+    {
+        "topic_summaries": [
+            {
+                "topic": "Topic 1",
+                "top_words": [
+                    "product",
+                    "replaced",
+                    "good",
+                    "work",
+                    "damaged",
+                    "table",
+                    "delivery",
+                    "initially",
+                    "well",
+                    "arrived"
+                ],
+                "description": "Reviews related to Desk - Topic 1",
+                "num_reviews": 10,
+                "sentiment": {
+                    "compound": 0.25847,
+                    "positive": 0.4286,
+                    "negative": 0.1206,
+                    "neutral": 0.4509
+                }
+            },
+            {
+                "topic": "Topic 2",
+                "top_words": [
+                    "great",
+                    "smooth",
+                    "height",
+                    "motor",
+                    "good",
+                    "table",
+                    "quality",
+                    "adjustment",
+                    "sturdy",
+                    "value"
+                ],
+                "description": "Reviews related to Desk - Topic 2",
+                "num_reviews": 10,
+                "sentiment": {
+                    "compound": 0.7565999999999999,
+                    "positive": 0.4050999999999999,
+                    "negative": 0.017499999999999998,
+                    "neutral": 0.5775000000000001
+                }
+            },
+            {
+                "topic": "Topic 3",
+                "top_words": [
+                    "table",
+                    "ample",
+                    "height",
+                    "good",
+                    "standing",
+                    "smooth",
+                    "operation",
+                    "great",
+                    "highly",
+                    "sturdy"
+                ],
+                "description": "Reviews related to Desk - Topic 3",
+                "num_reviews": 9,
+                "sentiment": {
+                    "compound": 0.656911111111111,
+                    "positive": 0.32833333333333337,
+                    "negative": 0.018666666666666668,
+                    "neutral": 0.653
+                }
+            },
+            {
+                "topic": "Topic 4",
+                "top_words": [
+                    "adjustment",
+                    "strong",
+                    "build",
+                    "height",
+                    "smooth",
+                    "quiet",
+                    "large",
+                    "surface",
+                    "easy",
+                    "setup"
+                ],
+                "description": "Reviews related to Desk - Topic 4",
+                "num_reviews": 2,
+                "sentiment": {
+                    "compound": 0.68005,
+                    "positive": 0.3685,
+                    "negative": 0.0,
+                    "neutral": 0.6315
+                }
+            },
+            {
+                "topic": "Topic 5",
+                "top_words": [
+                    "table",
+                    "good",
+                    "smooth",
+                    "work",
+                    "build",
+                    "easy",
+                    "motor",
+                    "company",
+                    "height",
+                    "adjustment"
+                ],
+                "description": "Reviews related to Desk - Topic 5",
+                "num_reviews": 18,
+                "sentiment": {
+                    "compound": 0.6131,
+                    "positive": 0.32516666666666666,
+                    "negative": 0.03361111111111111,
+                    "neutral": 0.6411666666666667
+                }
+            }
+        ]
+    },
+    {
+        "review": "Height adjustment is smooth and quiet, strong build, large surface, easy setup. Great for posture and productivity.",
+        "sentences": [
+            "Height adjustment is smooth and quiet, strong build, large surface, easy setup.",
+            "Great for posture and productivity."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "adjustment",
+            "strong",
+            "build",
+            "height",
+            "smooth",
+            "quiet",
+            "large",
+            "surface",
+            "easy",
+            "setup"
+        ],
+        "sentiment": {
+            "compound": 0.8834,
+            "positive": 0.424,
+            "negative": 0.0,
+            "neutral": 0.576
+        }
+    },
+    {
+        "review": "Smooth height adjustment, sturdy, quiet motor, spacious surface. Needs better cable management. Great value overall.",
+        "sentences": [
+            "Smooth height adjustment, sturdy, quiet motor, spacious surface.",
+            "Needs better cable management.",
+            "Great value overall."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.8555,
+            "positive": 0.439,
+            "negative": 0.0,
+            "neutral": 0.561
+        }
+    },
+    {
+        "review": "Quality is fantastic, ample size, height adjustable, and fun to assemble. Looks good.",
+        "sentences": [
+            "Quality is fantastic, ample size, height adjustable, and fun to assemble.",
+            "Looks good."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.8689,
+            "positive": 0.495,
+            "negative": 0.0,
+            "neutral": 0.505
+        }
+    },
+    {
+        "review": "Sturdy build, smooth motor, easy installation, height adjustment works well. Good product for the price.",
+        "sentences": [
+            "Sturdy build, smooth motor, easy installation, height adjustment works well.",
+            "Good product for the price."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.7845,
+            "positive": 0.397,
+            "negative": 0.0,
+            "neutral": 0.603
+        }
+    },
+    {
+        "review": "Solid build, ergonomic, spacious. Perfect for work/study. Stylish and reliable table.",
+        "sentences": [
+            "Solid build, ergonomic, spacious.",
+            "Perfect for work/study.",
+            "Stylish and reliable table."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.6486,
+            "positive": 0.371,
+            "negative": 0.0,
+            "neutral": 0.629
+        }
+    },
+    {
+        "review": "Strong build, silent motor, classy design, great height control. Installation was smooth. Excellent value.",
+        "sentences": [
+            "Strong build, silent motor, classy design, great height control.",
+            "Installation was smooth.",
+            "Excellent value."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.9468,
+            "positive": 0.646,
+            "negative": 0.0,
+            "neutral": 0.354
+        }
+    },
+    {
+        "review": "Easy to assemble, sturdy, smooth motor, spacious surface. Worth the investment for health and productivity.",
+        "sentences": [
+            "Easy to assemble, sturdy, smooth motor, spacious surface.",
+            "Worth the investment for health and productivity."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.5859,
+            "positive": 0.27,
+            "negative": 0.0,
+            "neutral": 0.73
+        }
+    },
+    {
+        "review": "Solid build, clean look, simple and easy to use. Great for home setups.",
+        "sentences": [
+            "Solid build, clean look, simple and easy to use.",
+            "Great for home setups."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.8834,
+            "positive": 0.557,
+            "negative": 0.0,
+            "neutral": 0.443
+        }
+    },
+    {
+        "review": "Initially poor experience with Amazon service. Excellent support from The Sleep Company. Recommend buying directly from them.",
+        "sentences": [
+            "Initially poor experience with Amazon service.",
+            "Excellent support from The Sleep Company.",
+            "Recommend buying directly from them."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.7579,
+            "positive": 0.412,
+            "negative": 0.121,
+            "neutral": 0.467
+        }
+    },
+    {
+        "review": "Table is good but expensive for engineered wood.",
+        "sentences": [
+            "Table is good but expensive for engineered wood."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.2382,
+            "positive": 0.218,
+            "negative": 0.0,
+            "neutral": 0.782
+        }
+    },
+    {
+        "review": "Desk is durable and stable with smooth, silent motor. Customer support quickly replaced a damaged part. Very satisfied.",
+        "sentences": [
+            "Desk is durable and stable with smooth, silent motor.",
+            "Customer support quickly replaced a damaged part.",
+            "Very satisfied."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.624,
+            "positive": 0.335,
+            "negative": 0.121,
+            "neutral": 0.544
+        }
+    },
+    {
+        "review": "Product works well but arrived damaged.",
+        "sentences": [
+            "Product works well but arrived damaged."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": -0.5106,
+            "positive": 0.165,
+            "negative": 0.41,
+            "neutral": 0.426
+        }
+    },
+    {
+        "review": "Relieved back pain by switching between sitting and standing. Smooth operation and great comfort. Highly recommended.",
+        "sentences": [
+            "Relieved back pain by switching between sitting and standing.",
+            "Smooth operation and great comfort.",
+            "Highly recommended."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.7902,
+            "positive": 0.441,
+            "negative": 0.129,
+            "neutral": 0.43
+        }
+    },
+    {
+        "review": "Sturdy table with smooth dual motor. Delivery and installation went well.",
+        "sentences": [
+            "Sturdy table with smooth dual motor.",
+            "Delivery and installation went well."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.2732,
+            "positive": 0.174,
+            "negative": 0.0,
+            "neutral": 0.826
+        }
+    },
+    {
+        "review": "Sturdy and spacious desk. Smooth height adjustment. Looks simple, works great.",
+        "sentences": [
+            "Sturdy and spacious desk.",
+            "Smooth height adjustment.",
+            "Looks simple, works great."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.6249,
+            "positive": 0.291,
+            "negative": 0.0,
+            "neutral": 0.709
+        }
+    },
+    {
+        "review": "Strong build and good adjustment, but slightly shakes when heavily loaded.",
+        "sentences": [
+            "Strong build and good adjustment, but slightly shakes when heavily loaded."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "adjustment",
+            "strong",
+            "build",
+            "height",
+            "smooth",
+            "quiet",
+            "large",
+            "surface",
+            "easy",
+            "setup"
+        ],
+        "sentiment": {
+            "compound": 0.4767,
+            "positive": 0.313,
+            "negative": 0.0,
+            "neutral": 0.687
+        }
+    },
+    {
+        "review": "Damaged table was replaced. Delivery was poor initially.",
+        "sentences": [
+            "Damaged table was replaced.",
+            "Delivery was poor initially."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": -0.7184,
+            "positive": 0.0,
+            "negative": 0.5,
+            "neutral": 0.5
+        }
+    },
+    {
+        "review": "Slight chipping on edges when hit, otherwise a great table.",
+        "sentences": [
+            "Slight chipping on edges when hit, otherwise a great table."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": 0.6249,
+            "positive": 0.339,
+            "negative": 0.0,
+            "neutral": 0.661
+        }
+    },
+    {
+        "review": "Helps reduce sitting time. Safe design and adjustable. Solid product.",
+        "sentences": [
+            "Helps reduce sitting time.",
+            "Safe design and adjustable.",
+            "Solid product."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.7269,
+            "positive": 0.504,
+            "negative": 0.0,
+            "neutral": 0.496
+        }
+    },
+    {
+        "review": "Comfortable and functional. Quick and efficient installation. Great customer service.",
+        "sentences": [
+            "Comfortable and functional.",
+            "Quick and efficient installation.",
+            "Great customer service."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.8807,
+            "positive": 0.593,
+            "negative": 0.0,
+            "neutral": 0.407
+        }
+    },
+    {
+        "review": "Product works fine, but service was initially poor. Resolved after contacting the brand.",
+        "sentences": [
+            "Product works fine, but service was initially poor.",
+            "Resolved after contacting the brand."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": -0.4019,
+            "positive": 0.196,
+            "negative": 0.236,
+            "neutral": 0.568
+        }
+    },
+    {
+        "review": "Slight polish marks and delayed delivery. Solid table and good motor. Great value overall.",
+        "sentences": [
+            "Slight polish marks and delayed delivery.",
+            "Solid table and good motor.",
+            "Great value overall."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.8442,
+            "positive": 0.502,
+            "negative": 0.087,
+            "neutral": 0.411
+        }
+    },
+    {
+        "review": "Functions as expected. Minor improvements needed in wood quality. Excellent assembly support.",
+        "sentences": [
+            "Functions as expected.",
+            "Minor improvements needed in wood quality.",
+            "Excellent assembly support."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.8271,
+            "positive": 0.492,
+            "negative": 0.0,
+            "neutral": 0.508
+        }
+    },
+    {
+        "review": "Wrong color was initially delivered but replaced smoothly. Good product.",
+        "sentences": [
+            "Wrong color was initially delivered but replaced smoothly.",
+            "Good product."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": 0.4215,
+            "positive": 0.277,
+            "negative": 0.147,
+            "neutral": 0.576
+        }
+    },
+    {
+        "review": "Spacious and smooth installation. Concern about future disassembly and stability.",
+        "sentences": [
+            "Spacious and smooth installation.",
+            "Concern about future disassembly and stability."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Great build quality. Ideal for home office.",
+        "sentences": [
+            "Great build quality.",
+            "Ideal for home office."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.8176,
+            "positive": 0.6,
+            "negative": 0.0,
+            "neutral": 0.4
+        }
+    },
+    {
+        "review": "Good sales service.",
+        "sentences": [
+            "Good sales service."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 0.592,
+            "negative": 0.0,
+            "neutral": 0.408
+        }
+    },
+    {
+        "review": "Some damage on delivery, but replaced quickly. Fair quality for price.",
+        "sentences": [
+            "Some damage on delivery, but replaced quickly.",
+            "Fair quality for price."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": 0.2144,
+            "positive": 0.21,
+            "negative": 0.149,
+            "neutral": 0.641
+        }
+    },
+    {
+        "review": "Received scratched table but customer support replaced top. Solid and large desk.",
+        "sentences": [
+            "Received scratched table but customer support replaced top.",
+            "Solid and large desk."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.7684,
+            "positive": 0.459,
+            "negative": 0.0,
+            "neutral": 0.541
+        }
+    },
+    {
+        "review": "Useful adjustable table. Slight wobble under pressure, but quality is great overall.",
+        "sentences": [
+            "Useful adjustable table.",
+            "Slight wobble under pressure, but quality is great overall."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.7906,
+            "positive": 0.418,
+            "negative": 0.088,
+            "neutral": 0.495
+        }
+    },
+    {
+        "review": "Quiet movement of table. Thickness of table should be increased to avoid sag in between.",
+        "sentences": [
+            "Quiet movement of table.",
+            "Thickness of table should be increased to avoid sag in between."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": -0.0258,
+            "positive": 0.121,
+            "negative": 0.127,
+            "neutral": 0.751
+        }
+    },
+    {
+        "review": "Solid and well-built table. Height adjustment is smooth and quiet, perfect for switching between sitting and standing. Totally worth it!",
+        "sentences": [
+            "Solid and well-built table.",
+            "Height adjustment is smooth and quiet, perfect for switching between sitting and standing.",
+            "Totally worth it!"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.7773,
+            "positive": 0.314,
+            "negative": 0.0,
+            "neutral": 0.686
+        }
+    },
+    {
+        "review": "The product is great and works very smooth. Height adjustment feature is great and has some cool memory options.",
+        "sentences": [
+            "The product is great and works very smooth.",
+            "Height adjustment feature is great and has some cool memory options."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.8885,
+            "positive": 0.396,
+            "negative": 0.0,
+            "neutral": 0.604
+        }
+    },
+    {
+        "review": "The product works good.",
+        "sentences": [
+            "The product works good."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 0.492,
+            "negative": 0.0,
+            "neutral": 0.508
+        }
+    },
+    {
+        "review": "The product is really good, but the delivery from the sleep company took 21 days, which is too long.",
+        "sentences": [
+            "The product is really good, but the delivery from the sleep company took 21 days, which is too long."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.2724,
+            "positive": 0.104,
+            "negative": 0.0,
+            "neutral": 0.896
+        }
+    },
+    {
+        "review": "I recently purchased this table, and it has exceeded my expectations in every way. The rich finish adds a touch of elegance to my living space, and its sturdy build ensures durability. One of the standout features is its silent operation with no creaks or wobbles, even when bearing substantial weight.",
+        "sentences": [
+            "I recently purchased this table, and it has exceeded my expectations in every way.",
+            "The rich finish adds a touch of elegance to my living space, and its sturdy build ensures durability.",
+            "One of the standout features is its silent operation with no creaks or wobbles, even when bearing substantial weight."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.743,
+            "positive": 0.153,
+            "negative": 0.039,
+            "neutral": 0.808
+        }
+    },
+    {
+        "review": "Awesome chair, easy to set up and moves smoothly. Been using it for 2 months and its comfortable, sturdy, and reliable. The finish and quality is good, looks astonishing too.",
+        "sentences": [
+            "Awesome chair, easy to set up and moves smoothly.",
+            "Been using it for 2 months and its comfortable, sturdy, and reliable.",
+            "The finish and quality is good, looks astonishing too."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.9217,
+            "positive": 0.346,
+            "negative": 0.0,
+            "neutral": 0.654
+        }
+    },
+    {
+        "review": "Very useful product.",
+        "sentences": [
+            "Very useful product."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.615,
+            "negative": 0.0,
+            "neutral": 0.385
+        }
+    },
+    {
+        "review": "The design is sleek and modern, fitting seamlessly into my home office. Adjusting height is incredibly simple, operating smoothly. I highly recommend this table.",
+        "sentences": [
+            "The design is sleek and modern, fitting seamlessly into my home office.",
+            "Adjusting height is incredibly simple, operating smoothly.",
+            "I highly recommend this table."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.4201,
+            "positive": 0.113,
+            "negative": 0.0,
+            "neutral": 0.887
+        }
+    },
+    {
+        "review": "Very much satisfied with the table. A really long table for a reasonable amount. Been using it for few months and works good.",
+        "sentences": [
+            "Very much satisfied with the table.",
+            "A really long table for a reasonable amount.",
+            "Been using it for few months and works good."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.7165,
+            "positive": 0.239,
+            "negative": 0.0,
+            "neutral": 0.761
+        }
+    },
+    {
+        "review": "The product is too good and the owner is doing the same with a noble cause we must support her.",
+        "sentences": [
+            "The product is too good and the owner is doing the same with a noble cause we must support her."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.8225,
+            "positive": 0.35,
+            "negative": 0.0,
+            "neutral": 0.65
+        }
+    },
+    {
+        "review": "Amazing product. Special if you are doing work from home and long hours shifts.",
+        "sentences": [
+            "Amazing product.",
+            "Special if you are doing work from home and long hours shifts."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": 0.7579,
+            "positive": 0.351,
+            "negative": 0.0,
+            "neutral": 0.649
+        }
+    },
+    {
+        "review": "Good.",
+        "sentences": [
+            "Good."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Ive been using The Sleep Companys automatic height adjustment table for a while now, and Im genuinely impressed. The build quality is top-notchsturdy, stable, and clearly made to last. The size is absolutely perfect for people like me who work long hours. The height adjustment mechanism is smooth and effortless. Premium features at an affordable price point. Highly recommended!",
+        "sentences": [
+            "Ive been using The Sleep Companys automatic height adjustment table for a while now, and Im genuinely impressed.",
+            "The build quality is top-notchsturdy, stable, and clearly made to last.",
+            "The size is absolutely perfect for people like me who work long hours.",
+            "The height adjustment mechanism is smooth and effortless.",
+            "Premium features at an affordable price point.",
+            "Highly recommended!"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.9421,
+            "positive": 0.245,
+            "negative": 0.0,
+            "neutral": 0.755
+        }
+    },
+    {
+        "review": "Table and features good and when motor was getting hot, company immediately responded and sent alternate motor. Very good focus on customer service which is most important.",
+        "sentences": [
+            "Table and features good and when motor was getting hot, company immediately responded and sent alternate motor.",
+            "Very good focus on customer service which is most important."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.7841,
+            "positive": 0.247,
+            "negative": 0.0,
+            "neutral": 0.753
+        }
+    },
+    {
+        "review": "Nice workplace.",
+        "sentences": [
+            "Nice workplace."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "product",
+            "replaced",
+            "good",
+            "work",
+            "damaged",
+            "table",
+            "delivery",
+            "initially",
+            "well",
+            "arrived"
+        ],
+        "sentiment": {
+            "compound": 0.4215,
+            "positive": 0.737,
+            "negative": 0.0,
+            "neutral": 0.263
+        }
+    },
+    {
+        "review": "After two months of use, I can confidently say this table is excellent. It offers ample space and is incredibly versatile, working well for both seated and standing positions. The surface material is durable and easy to wipe clean.",
+        "sentences": [
+            "After two months of use, I can confidently say this table is excellent.",
+            "It offers ample space and is incredibly versatile, working well for both seated and standing positions.",
+            "The surface material is durable and easy to wipe clean."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "table",
+            "ample",
+            "height",
+            "good",
+            "standing",
+            "smooth",
+            "operation",
+            "great",
+            "highly",
+            "sturdy"
+        ],
+        "sentiment": {
+            "compound": 0.9295,
+            "positive": 0.309,
+            "negative": 0.0,
+            "neutral": 0.691
+        }
+    },
+    {
+        "review": "The table is very good despite being a little pricy. It offers a wide range of height for standing and sitting. The quality seems pretty good and it feels sturdy. The fit and finish of the table is of high quality.",
+        "sentences": [
+            "The table is very good despite being a little pricy.",
+            "It offers a wide range of height for standing and sitting.",
+            "The quality seems pretty good and it feels sturdy.",
+            "The fit and finish of the table is of high quality."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "great",
+            "smooth",
+            "height",
+            "motor",
+            "good",
+            "table",
+            "quality",
+            "adjustment",
+            "sturdy",
+            "value"
+        ],
+        "sentiment": {
+            "compound": 0.9019,
+            "positive": 0.257,
+            "negative": 0.0,
+            "neutral": 0.743
+        }
+    },
+    {
+        "review": "Satisfied with the overall quality. Can be dismantled and easy to transport whenever needed. Ideal for having a big workspace.",
+        "sentences": [
+            "Satisfied with the overall quality.",
+            "Can be dismantled and easy to transport whenever needed.",
+            "Ideal for having a big workspace."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "table",
+            "good",
+            "smooth",
+            "work",
+            "build",
+            "easy",
+            "motor",
+            "company",
+            "height",
+            "adjustment"
+        ],
+        "sentiment": {
+            "compound": 0.8442,
+            "positive": 0.363,
+            "negative": 0.0,
+            "neutral": 0.637
+        }
+    }
+]

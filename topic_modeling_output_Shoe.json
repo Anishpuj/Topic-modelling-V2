@@ -1,0 +1,1399 @@
+[
+    {
+        "topic_summaries": [
+            {
+                "topic": "Topic 1",
+                "top_words": [
+                    "shoe",
+                    "comfortable",
+                    "good",
+                    "fit",
+                    "wear",
+                    "nice",
+                    "light",
+                    "thank",
+                    "amazing",
+                    "discount"
+                ],
+                "description": "Reviews related to Shoe - Topic 1",
+                "num_reviews": 14,
+                "sentiment": {
+                    "compound": 0.41834999999999994,
+                    "positive": 0.5749285714285713,
+                    "negative": 0.048214285714285716,
+                    "neutral": 0.37685714285714284
+                }
+            },
+            {
+                "topic": "Topic 2",
+                "top_words": [
+                    "good",
+                    "quality",
+                    "comfortable",
+                    "puma",
+                    "best",
+                    "price",
+                    "product",
+                    "damaged",
+                    "packaging",
+                    "light"
+                ],
+                "description": "Reviews related to Shoe - Topic 2",
+                "num_reviews": 11,
+                "sentiment": {
+                    "compound": 0.32980000000000004,
+                    "positive": 0.2845454545454546,
+                    "negative": 0.07645454545454546,
+                    "neutral": 0.639
+                }
+            },
+            {
+                "topic": "Topic 3",
+                "top_words": [
+                    "sneaker",
+                    "didnt",
+                    "last",
+                    "week",
+                    "everything",
+                    "ripped",
+                    "going",
+                    "check",
+                    "puma",
+                    "see"
+                ],
+                "description": "Reviews related to Shoe - Topic 3",
+                "num_reviews": 1,
+                "sentiment": {
+                    "compound": -0.4767,
+                    "positive": 0.0,
+                    "negative": 0.147,
+                    "neutral": 0.853
+                }
+            },
+            {
+                "topic": "Topic 4",
+                "top_words": [
+                    "comfortable",
+                    "fit",
+                    "comfort",
+                    "well",
+                    "wide",
+                    "great",
+                    "use",
+                    "shoe",
+                    "good",
+                    "product"
+                ],
+                "description": "Reviews related to Shoe - Topic 4",
+                "num_reviews": 16,
+                "sentiment": {
+                    "compound": 0.74395625,
+                    "positive": 0.442875,
+                    "negative": 0.0294375,
+                    "neutral": 0.5276875
+                }
+            },
+            {
+                "topic": "Topic 5",
+                "top_words": [
+                    "shoe",
+                    "comfortable",
+                    "quality",
+                    "soft",
+                    "like",
+                    "puma",
+                    "feel",
+                    "already",
+                    "time",
+                    "sole"
+                ],
+                "description": "Reviews related to Shoe - Topic 5",
+                "num_reviews": 7,
+                "sentiment": {
+                    "compound": 0.7338285714285713,
+                    "positive": 0.31471428571428567,
+                    "negative": 0.016571428571428574,
+                    "neutral": 0.6687142857142857
+                }
+            }
+        ]
+    },
+    {
+        "review": "100% Authentic. Best quality. Puma has evolved a lot what a quality shoe.",
+        "sentences": [
+            "100% Authentic.",
+            "Best quality.",
+            "Puma has evolved a lot what a quality shoe."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "quality",
+            "soft",
+            "like",
+            "puma",
+            "feel",
+            "already",
+            "time",
+            "sole"
+        ],
+        "sentiment": {
+            "compound": 0.6369,
+            "positive": 0.296,
+            "negative": 0.0,
+            "neutral": 0.704
+        }
+    },
+    {
+        "review": "DAMAGED PACKAGING",
+        "sentences": [
+            "DAMAGED PACKAGING"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": -0.4404,
+            "positive": 0.0,
+            "negative": 0.744,
+            "neutral": 0.256
+        }
+    },
+    {
+        "review": "Very comfortable and fit well for wide feet. Simple and decent design. Great for all-day use.",
+        "sentences": [
+            "Very comfortable and fit well for wide feet.",
+            "Simple and decent design.",
+            "Great for all-day use."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.911,
+            "positive": 0.511,
+            "negative": 0.0,
+            "neutral": 0.489
+        }
+    },
+    {
+        "review": "This shoe is soft, comfortable and they feel so good while wearing the shoe. It also feels like a slip and off shoe. I would really recommend you to buy this shoe for sports, jogging and school.",
+        "sentences": [
+            "This shoe is soft, comfortable and they feel so good while wearing the shoe.",
+            "It also feels like a slip and off shoe.",
+            "I would really recommend you to buy this shoe for sports, jogging and school."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "quality",
+            "soft",
+            "like",
+            "puma",
+            "feel",
+            "already",
+            "time",
+            "sole"
+        ],
+        "sentiment": {
+            "compound": 0.9069,
+            "positive": 0.285,
+            "negative": 0.0,
+            "neutral": 0.715
+        }
+    },
+    {
+        "review": "Absolutely comfortable to wear. The elastic heel back is the best thing about the shoes. I no more have to tie-untie shoe laces. Best buy!!!",
+        "sentences": [
+            "Absolutely comfortable to wear.",
+            "The elastic heel back is the best thing about the shoes.",
+            "I no more have to tie-untie shoe laces.",
+            "Best buy!!",
+            "!"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.913,
+            "positive": 0.367,
+            "negative": 0.063,
+            "neutral": 0.57
+        }
+    },
+    {
+        "review": "Not so good, don't feel 4100 Rs. Lightweight and comfortable but not worth for buying at 4100",
+        "sentences": [
+            "Not so good, don't feel 4100 Rs.",
+            "Lightweight and comfortable but not worth for buying at 4100"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": -0.1681,
+            "positive": 0.108,
+            "negative": 0.191,
+            "neutral": 0.701
+        }
+    },
+    {
+        "review": "The product Is original and imported. The quality is quite satisfactory. Comfort wise top notch. Very good finishing.",
+        "sentences": [
+            "The product Is original and imported.",
+            "The quality is quite satisfactory.",
+            "Comfort wise top notch.",
+            "Very good finishing."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.9352,
+            "positive": 0.575,
+            "negative": 0.0,
+            "neutral": 0.425
+        }
+    },
+    {
+        "review": "Comfortable and light weight. Puma charges extra for brand name. Best price would've been ?1500.",
+        "sentences": [
+            "Comfortable and light weight.",
+            "Puma charges extra for brand name.",
+            "Best price would've been ?1500."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.7506,
+            "positive": 0.347,
+            "negative": 0.097,
+            "neutral": 0.556
+        }
+    },
+    {
+        "review": "Thank you!",
+        "sentences": [
+            "Thank you!"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.4199,
+            "positive": 0.736,
+            "negative": 0.0,
+            "neutral": 0.264
+        }
+    },
+    {
+        "review": "Amazing discount",
+        "sentences": [
+            "Amazing discount"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.5859,
+            "positive": 0.792,
+            "negative": 0.0,
+            "neutral": 0.208
+        }
+    },
+    {
+        "review": "Easily wornout",
+        "sentences": [
+            "Easily wornout"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.34,
+            "positive": 0.706,
+            "negative": 0.0,
+            "neutral": 0.294
+        }
+    },
+    {
+        "review": "Worth buying, it's a good shoe for running, walking etc",
+        "sentences": [
+            "Worth buying, it's a good shoe for running, walking etc"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.5859,
+            "positive": 0.407,
+            "negative": 0.0,
+            "neutral": 0.593
+        }
+    },
+    {
+        "review": "Very comfortable shoe ever ????",
+        "sentences": [
+            "Very comfortable shoe ever ?",
+            "??",
+            "?"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.676,
+            "positive": 0.532,
+            "negative": 0.0,
+            "neutral": 0.468
+        }
+    },
+    {
+        "review": "Excellent shoes, superbly carbon plate, extremely comfortable and fits really well. Puma is back.",
+        "sentences": [
+            "Excellent shoes, superbly carbon plate, extremely comfortable and fits really well.",
+            "Puma is back."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.8653,
+            "positive": 0.468,
+            "negative": 0.0,
+            "neutral": 0.532
+        }
+    },
+    {
+        "review": "Good",
+        "sentences": [
+            "Good"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "It's made in india",
+        "sentences": [
+            "It's made in india"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Wonderful",
+        "sentences": [
+            "Wonderful"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.5719,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Customer image",
+        "sentences": [
+            "Customer image"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Regret purchase due to leg and back pain. Poor support despite comfort claims.",
+        "sentences": [
+            "Regret purchase due to leg and back pain.",
+            "Poor support despite comfort claims."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": -0.8229,
+            "positive": 0.123,
+            "negative": 0.514,
+            "neutral": 0.363
+        }
+    },
+    {
+        "review": "Product is different from website",
+        "sentences": [
+            "Product is different from website"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Really great product. I can't tell you that much comfort. Thanks Amazon.",
+        "sentences": [
+            "Really great product.",
+            "I can't tell you that much comfort.",
+            "Thanks Amazon."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.8883,
+            "positive": 0.621,
+            "negative": 0.0,
+            "neutral": 0.379
+        }
+    },
+    {
+        "review": "These are a fantastic purchase! Extremely comfortable, excellent cushioning, very stylish. Slightly tight  pick a larger size. Highly recommended overall.",
+        "sentences": [
+            "These are a fantastic purchase!",
+            "Extremely comfortable, excellent cushioning, very stylish.",
+            "Slightly tight  pick a larger size.",
+            "Highly recommended overall."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.9268,
+            "positive": 0.492,
+            "negative": 0.0,
+            "neutral": 0.508
+        }
+    },
+    {
+        "review": "It is comfortable and practical for daily use. I use it almost daily and I am comfortable with it.",
+        "sentences": [
+            "It is comfortable and practical for daily use.",
+            "I use it almost daily and I am comfortable with it."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.765,
+            "positive": 0.306,
+            "negative": 0.0,
+            "neutral": 0.694
+        }
+    },
+    {
+        "review": "My son likes it. Already bought it for the 2nd time. Comfortable and he likes the black sole. Corresponds to the size.",
+        "sentences": [
+            "My son likes it.",
+            "Already bought it for the 2nd time.",
+            "Comfortable and he likes the black sole.",
+            "Corresponds to the size."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "quality",
+            "soft",
+            "like",
+            "puma",
+            "feel",
+            "already",
+            "time",
+            "sole"
+        ],
+        "sentiment": {
+            "compound": 0.836,
+            "positive": 0.319,
+            "negative": 0.0,
+            "neutral": 0.681
+        }
+    },
+    {
+        "review": "They are comfortable and good quality... price ??",
+        "sentences": [
+            "They are comfortable and good quality... price ?",
+            "?"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.7622,
+            "positive": 0.522,
+            "negative": 0.0,
+            "neutral": 0.478
+        }
+    },
+    {
+        "review": "Excellent comfort, stylish design, great fit. Superb value. Highly recommend.",
+        "sentences": [
+            "Excellent comfort, stylish design, great fit.",
+            "Superb value.",
+            "Highly recommend."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.9686,
+            "positive": 0.88,
+            "negative": 0.0,
+            "neutral": 0.12
+        }
+    },
+    {
+        "review": "On time delivery is fast and reliable ?? I highly recommend",
+        "sentences": [
+            "On time delivery is fast and reliable ?",
+            "?",
+            "I highly recommend"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.4859,
+            "positive": 0.259,
+            "negative": 0.0,
+            "neutral": 0.741
+        }
+    },
+    {
+        "review": "Even in large size, these shoes look sleek. Very comfortable and stylish.",
+        "sentences": [
+            "Even in large size, these shoes look sleek.",
+            "Very comfortable and stylish."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "quality",
+            "soft",
+            "like",
+            "puma",
+            "feel",
+            "already",
+            "time",
+            "sole"
+        ],
+        "sentiment": {
+            "compound": 0.5563,
+            "positive": 0.246,
+            "negative": 0.0,
+            "neutral": 0.754
+        }
+    },
+    {
+        "review": "Cheap quality and nothing you expect from puma. Had to return it.",
+        "sentences": [
+            "Cheap quality and nothing you expect from puma.",
+            "Had to return it."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Very good product: light, comfortable",
+        "sentences": [
+            "Very good product: light, comfortable"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.7574,
+            "positive": 0.684,
+            "negative": 0.0,
+            "neutral": 0.316
+        }
+    },
+    {
+        "review": "I've only tried them on at home for a short time so far, and I'm impressed by the fit, the look and the comfort! Puma remains a high-quality brand.",
+        "sentences": [
+            "I've only tried them on at home for a short time so far, and I'm impressed by the fit, the look and the comfort!",
+            "Puma remains a high-quality brand."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.8122,
+            "positive": 0.259,
+            "negative": 0.0,
+            "neutral": 0.741
+        }
+    },
+    {
+        "review": "Very nice look, comfortable, light and quite high quality. No negatives so far.",
+        "sentences": [
+            "Very nice look, comfortable, light and quite high quality.",
+            "No negatives so far."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.6361,
+            "positive": 0.348,
+            "negative": 0.129,
+            "neutral": 0.523
+        }
+    },
+    {
+        "review": "Very satisfied, the shoes fit perfectly and are great to wear.",
+        "sentences": [
+            "Very satisfied, the shoes fit perfectly and are great to wear."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.9312,
+            "positive": 0.665,
+            "negative": 0.0,
+            "neutral": 0.335
+        }
+    },
+    {
+        "review": "Very comfortable, but narrow in the front. Not recommended for wide feet. Recommend buying one size larger.",
+        "sentences": [
+            "Very comfortable, but narrow in the front.",
+            "Not recommended for wide feet.",
+            "Recommend buying one size larger."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.5659,
+            "positive": 0.259,
+            "negative": 0.088,
+            "neutral": 0.653
+        }
+    },
+    {
+        "review": "Nice shoes and price, but they fit tight. I wear 44 and shouldve taken half a size more.",
+        "sentences": [
+            "Nice shoes and price, but they fit tight.",
+            "I wear 44 and shouldve taken half a size more."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.631,
+            "positive": 0.269,
+            "negative": 0.0,
+            "neutral": 0.731
+        }
+    },
+    {
+        "review": "Comfortable, with a simple and discreet design.",
+        "sentences": [
+            "Comfortable, with a simple and discreet design."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.5106,
+            "positive": 0.398,
+            "negative": 0.0,
+            "neutral": 0.602
+        }
+    },
+    {
+        "review": "Comfortable fit with wide front. Slightly small if you wear thick socks. Very light and easy to move in.",
+        "sentences": [
+            "Comfortable fit with wide front.",
+            "Slightly small if you wear thick socks.",
+            "Very light and easy to move in."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.8387,
+            "positive": 0.359,
+            "negative": 0.0,
+            "neutral": 0.641
+        }
+    },
+    {
+        "review": "Third Puma shoe. First ordered online without trying. No regrets  very comfortable soft sole.",
+        "sentences": [
+            "Third Puma shoe.",
+            "First ordered online without trying.",
+            "No regrets  very comfortable soft sole."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "quality",
+            "soft",
+            "like",
+            "puma",
+            "feel",
+            "already",
+            "time",
+            "sole"
+        ],
+        "sentiment": {
+            "compound": 0.7643,
+            "positive": 0.408,
+            "negative": 0.0,
+            "neutral": 0.592
+        }
+    },
+    {
+        "review": "Very good shoes.",
+        "sentences": [
+            "Very good shoes."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.615,
+            "negative": 0.0,
+            "neutral": 0.385
+        }
+    },
+    {
+        "review": "Soft and lightweight. Great cushioning in heel. High quality and stable. Helped with Achilles heel pain. Worth trying for the price.",
+        "sentences": [
+            "Soft and lightweight.",
+            "Great cushioning in heel.",
+            "High quality and stable.",
+            "Helped with Achilles heel pain.",
+            "Worth trying for the price."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "quality",
+            "soft",
+            "like",
+            "puma",
+            "feel",
+            "already",
+            "time",
+            "sole"
+        ],
+        "sentiment": {
+            "compound": 0.5994,
+            "positive": 0.288,
+            "negative": 0.116,
+            "neutral": 0.596
+        }
+    },
+    {
+        "review": "Very good quality",
+        "sentences": [
+            "Very good quality"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.615,
+            "negative": 0.0,
+            "neutral": 0.385
+        }
+    },
+    {
+        "review": "It is light, soft, beautiful and comfortable",
+        "sentences": [
+            "It is light, soft, beautiful and comfortable"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.802,
+            "positive": 0.59,
+            "negative": 0.0,
+            "neutral": 0.41
+        }
+    },
+    {
+        "review": "Great, shipping process and Amazon professional. Product is very good.",
+        "sentences": [
+            "Great, shipping process and Amazon professional.",
+            "Product is very good."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.8399,
+            "positive": 0.562,
+            "negative": 0.0,
+            "neutral": 0.438
+        }
+    },
+    {
+        "review": "I have comfortable and light shoes. I recommend buying",
+        "sentences": [
+            "I have comfortable and light shoes.",
+            "I recommend buying"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": 0.7003,
+            "positive": 0.537,
+            "negative": 0.0,
+            "neutral": 0.463
+        }
+    },
+    {
+        "review": "Super comfortable and look durable, we'll see.",
+        "sentences": [
+            "Super comfortable and look durable, we'll see."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "comfortable",
+            "fit",
+            "comfort",
+            "well",
+            "wide",
+            "great",
+            "use",
+            "shoe",
+            "good",
+            "product"
+        ],
+        "sentiment": {
+            "compound": 0.802,
+            "positive": 0.59,
+            "negative": 0.0,
+            "neutral": 0.41
+        }
+    },
+    {
+        "review": "The sneakers didn't last a week, everything was ripped. I'm going to check with Puma to see if they're fake.",
+        "sentences": [
+            "The sneakers didn't last a week, everything was ripped.",
+            "I'm going to check with Puma to see if they're fake."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "sneaker",
+            "didnt",
+            "last",
+            "week",
+            "everything",
+            "ripped",
+            "going",
+            "check",
+            "puma",
+            "see"
+        ],
+        "sentiment": {
+            "compound": -0.4767,
+            "positive": 0.0,
+            "negative": 0.147,
+            "neutral": 0.853
+        }
+    },
+    {
+        "review": "The best schuhe",
+        "sentences": [
+            "The best schuhe"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "comfortable",
+            "puma",
+            "best",
+            "price",
+            "product",
+            "damaged",
+            "packaging",
+            "light"
+        ],
+        "sentiment": {
+            "compound": 0.6369,
+            "positive": 0.677,
+            "negative": 0.0,
+            "neutral": 0.323
+        }
+    },
+    {
+        "review": "It's already the second time I've ordered this. Super comfortable and very durable for the price.",
+        "sentences": [
+            "It's already the second time I've ordered this.",
+            "Super comfortable and very durable for the price."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "quality",
+            "soft",
+            "like",
+            "puma",
+            "feel",
+            "already",
+            "time",
+            "sole"
+        ],
+        "sentiment": {
+            "compound": 0.837,
+            "positive": 0.361,
+            "negative": 0.0,
+            "neutral": 0.639
+        }
+    },
+    {
+        "review": "The product is very nice but the box arrived damaged and the shoe oddly included the inside of the track",
+        "sentences": [
+            "The product is very nice but the box arrived damaged and the shoe oddly included the inside of the track"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "shoe",
+            "comfortable",
+            "good",
+            "fit",
+            "wear",
+            "nice",
+            "light",
+            "thank",
+            "amazing",
+            "discount"
+        ],
+        "sentiment": {
+            "compound": -0.4221,
+            "positive": 0.086,
+            "negative": 0.161,
+            "neutral": 0.753
+        }
+    }
+]

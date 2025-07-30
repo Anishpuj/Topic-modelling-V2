@@ -1,0 +1,1361 @@
+[
+    {
+        "topic_summaries": [
+            {
+                "topic": "Topic 1",
+                "top_words": [
+                    "good",
+                    "jean",
+                    "comfortable",
+                    "according",
+                    "brand",
+                    "button",
+                    "faulty",
+                    "excellent",
+                    "superb",
+                    "stretchable"
+                ],
+                "description": "Reviews related to Jeans - Topic 1",
+                "num_reviews": 15,
+                "sentiment": {
+                    "compound": 0.35432666666666673,
+                    "positive": 0.7102666666666668,
+                    "negative": 0.0608,
+                    "neutral": 0.22893333333333332
+                }
+            },
+            {
+                "topic": "Topic 2",
+                "top_words": [
+                    "product",
+                    "good",
+                    "quality",
+                    "comfortable",
+                    "value",
+                    "money",
+                    "price",
+                    "branded",
+                    "stretchable",
+                    "buy"
+                ],
+                "description": "Reviews related to Jeans - Topic 2",
+                "num_reviews": 15,
+                "sentiment": {
+                    "compound": 0.31214666666666674,
+                    "positive": 0.3452,
+                    "negative": 0.109,
+                    "neutral": 0.5458
+                }
+            },
+            {
+                "topic": "Topic 3",
+                "top_words": [
+                    "average"
+                ],
+                "description": "Reviews related to Jeans - Topic 3",
+                "num_reviews": 2,
+                "sentiment": {
+                    "compound": 0.0,
+                    "positive": 0.0,
+                    "negative": 0.0,
+                    "neutral": 1.0
+                }
+            },
+            {
+                "topic": "Topic 4",
+                "top_words": [
+                    "good",
+                    "product",
+                    "brand",
+                    "fit",
+                    "quality",
+                    "color",
+                    "per",
+                    "price",
+                    "ordered",
+                    "regular"
+                ],
+                "description": "Reviews related to Jeans - Topic 4",
+                "num_reviews": 5,
+                "sentiment": {
+                    "compound": 0.1947,
+                    "positive": 0.19499999999999998,
+                    "negative": 0.055200000000000006,
+                    "neutral": 0.7498
+                }
+            },
+            {
+                "topic": "Topic 5",
+                "top_words": [
+                    "good",
+                    "fit",
+                    "comfortable",
+                    "stretchable",
+                    "jean",
+                    "color",
+                    "material",
+                    "quality",
+                    "colour",
+                    "also"
+                ],
+                "description": "Reviews related to Jeans - Topic 5",
+                "num_reviews": 12,
+                "sentiment": {
+                    "compound": 0.5983583333333333,
+                    "positive": 0.30325,
+                    "negative": 0.03441666666666667,
+                    "neutral": 0.6623333333333333
+                }
+            }
+        ]
+    },
+    {
+        "review": "Very good quality material is used. Colour is also prominent and perfect fit. Very comfortable. Not stretchable jeans, I can say 'semi-hard jeans'.",
+        "sentences": [
+            "Very good quality material is used.",
+            "Colour is also prominent and perfect fit.",
+            "Very comfortable.",
+            "Not stretchable jeans, I can say 'semi-hard jeans'."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.9359,
+            "positive": 0.473,
+            "negative": 0.0,
+            "neutral": 0.527
+        }
+    },
+    {
+        "review": "Good product but as per price and brand not good. I ordered regular fit and received tight fit.",
+        "sentences": [
+            "Good product but as per price and brand not good.",
+            "I ordered regular fit and received tight fit."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "good",
+            "product",
+            "brand",
+            "fit",
+            "quality",
+            "color",
+            "per",
+            "price",
+            "ordered",
+            "regular"
+        ],
+        "sentiment": {
+            "compound": 0.6532,
+            "positive": 0.344,
+            "negative": 0.127,
+            "neutral": 0.529
+        }
+    },
+    {
+        "review": "Fine clothing and fitting is very comfy. Gives a look suitable for going anywhere.",
+        "sentences": [
+            "Fine clothing and fitting is very comfy.",
+            "Gives a look suitable for going anywhere."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.2023,
+            "positive": 0.13,
+            "negative": 0.0,
+            "neutral": 0.87
+        }
+    },
+    {
+        "review": "Good product in this price.",
+        "sentences": [
+            "Good product in this price."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 0.42,
+            "negative": 0.0,
+            "neutral": 0.58
+        }
+    },
+    {
+        "review": "Low quality and local product, not from genuine brand. Color faded while washing.",
+        "sentences": [
+            "Low quality and local product, not from genuine brand.",
+            "Color faded while washing."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "good",
+            "product",
+            "brand",
+            "fit",
+            "quality",
+            "color",
+            "per",
+            "price",
+            "ordered",
+            "regular"
+        ],
+        "sentiment": {
+            "compound": -0.2732,
+            "positive": 0.0,
+            "negative": 0.149,
+            "neutral": 0.851
+        }
+    },
+    {
+        "review": "Length is ok for everyone. Branded and original product, stretchable and very soft. I'm satisfied.",
+        "sentences": [
+            "Length is ok for everyone.",
+            "Branded and original product, stretchable and very soft.",
+            "I'm satisfied."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.7624,
+            "positive": 0.387,
+            "negative": 0.0,
+            "neutral": 0.613
+        }
+    },
+    {
+        "review": "Very good material, exactly what I expected. Size also accurate.",
+        "sentences": [
+            "Very good material, exactly what I expected.",
+            "Size also accurate."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.285,
+            "negative": 0.0,
+            "neutral": 0.715
+        }
+    },
+    {
+        "review": "Good fitting for me. After many orders, finally got a favorite jeans for office and formal use. Fabric is good, not very heavy. Comfortable to wear.",
+        "sentences": [
+            "Good fitting for me.",
+            "After many orders, finally got a favorite jeans for office and formal use.",
+            "Fabric is good, not very heavy.",
+            "Comfortable to wear."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.7088,
+            "positive": 0.269,
+            "negative": 0.089,
+            "neutral": 0.642
+        }
+    },
+    {
+        "review": "Average.",
+        "sentences": [
+            "Average."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "average"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Good and comfortable jeans.",
+        "sentences": [
+            "Good and comfortable jeans."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.7351,
+            "positive": 0.756,
+            "negative": 0.0,
+            "neutral": 0.244
+        }
+    },
+    {
+        "review": "Good.",
+        "sentences": [
+            "Good."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Good.",
+        "sentences": [
+            "Good."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Average.",
+        "sentences": [
+            "Average."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "average"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "The product is awesome and comfortable. Absolutely value for money.",
+        "sentences": [
+            "The product is awesome and comfortable.",
+            "Absolutely value for money."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.8777,
+            "positive": 0.59,
+            "negative": 0.0,
+            "neutral": 0.41
+        }
+    },
+    {
+        "review": "According to brand, not so good.",
+        "sentences": [
+            "According to brand, not so good."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": -0.464,
+            "positive": 0.0,
+            "negative": 0.377,
+            "neutral": 0.623
+        }
+    },
+    {
+        "review": "Smooth quality but color is average, not bright.",
+        "sentences": [
+            "Smooth quality but color is average, not bright."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": -0.4782,
+            "positive": 0.0,
+            "negative": 0.308,
+            "neutral": 0.692
+        }
+    },
+    {
+        "review": "Good.",
+        "sentences": [
+            "Good."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Button is faulty.",
+        "sentences": [
+            "Button is faulty."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": -0.3182,
+            "positive": 0.0,
+            "negative": 0.535,
+            "neutral": 0.465
+        }
+    },
+    {
+        "review": "Excellent.",
+        "sentences": [
+            "Excellent."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.5719,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Not satisfied with packing. Also, color was very different.",
+        "sentences": [
+            "Not satisfied with packing.",
+            "Also, color was very different."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": -0.3252,
+            "positive": 0.0,
+            "negative": 0.226,
+            "neutral": 0.774
+        }
+    },
+    {
+        "review": "The color and quality of jeans is amazing. Comfortable and stretchable. Good value for money under 1k. But size 32 fits more like 34-35. Oversized. Might not be suitable if needed urgently.",
+        "sentences": [
+            "The color and quality of jeans is amazing.",
+            "Comfortable and stretchable.",
+            "Good value for money under 1k.",
+            "But size 32 fits more like 34-35.",
+            "Oversized.",
+            "Might not be suitable if needed urgently."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.8717,
+            "positive": 0.306,
+            "negative": 0.0,
+            "neutral": 0.694
+        }
+    },
+    {
+        "review": "Very good.",
+        "sentences": [
+            "Very good."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.762,
+            "negative": 0.0,
+            "neutral": 0.238
+        }
+    },
+    {
+        "review": "Good.",
+        "sentences": [
+            "Good."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Very comfortable.",
+        "sentences": [
+            "Very comfortable."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.5563,
+            "positive": 0.782,
+            "negative": 0.0,
+            "neutral": 0.218
+        }
+    },
+    {
+        "review": "Very good product.",
+        "sentences": [
+            "Very good product."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.615,
+            "negative": 0.0,
+            "neutral": 0.385
+        }
+    },
+    {
+        "review": "Stretchable and comfortable. But its more of a slim fit, tight below the knees. Suitable for those who prefer slim fit.",
+        "sentences": [
+            "Stretchable and comfortable.",
+            "But its more of a slim fit, tight below the knees.",
+            "Suitable for those who prefer slim fit."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.857,
+            "positive": 0.357,
+            "negative": 0.0,
+            "neutral": 0.643
+        }
+    },
+    {
+        "review": "Not good quality.",
+        "sentences": [
+            "Not good quality."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": -0.3412,
+            "positive": 0.0,
+            "negative": 0.546,
+            "neutral": 0.454
+        }
+    },
+    {
+        "review": "Ok but overpriced. Should be 200-300 less.",
+        "sentences": [
+            "Ok but overpriced.",
+            "Should be 200-300 less."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "good",
+            "product",
+            "brand",
+            "fit",
+            "quality",
+            "color",
+            "per",
+            "price",
+            "ordered",
+            "regular"
+        ],
+        "sentiment": {
+            "compound": 0.1531,
+            "positive": 0.211,
+            "negative": 0.0,
+            "neutral": 0.789
+        }
+    },
+    {
+        "review": "Branded product. Buy it without second thoughts.",
+        "sentences": [
+            "Branded product.",
+            "Buy it without second thoughts."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Material is not good for the price. Please return.",
+        "sentences": [
+            "Material is not good for the price.",
+            "Please return."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": -0.0274,
+            "positive": 0.196,
+            "negative": 0.206,
+            "neutral": 0.598
+        }
+    },
+    {
+        "review": "Levis same size was perfect. This one is a bit tight. Material is good.",
+        "sentences": [
+            "Levis same size was perfect.",
+            "This one is a bit tight.",
+            "Material is good."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.765,
+            "positive": 0.375,
+            "negative": 0.0,
+            "neutral": 0.625
+        }
+    },
+    {
+        "review": "Very good.",
+        "sentences": [
+            "Very good."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.4927,
+            "positive": 0.762,
+            "negative": 0.0,
+            "neutral": 0.238
+        }
+    },
+    {
+        "review": "Made in Bangladesh.",
+        "sentences": [
+            "Made in Bangladesh."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Superb.",
+        "sentences": [
+            "Superb."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.6249,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Good jeans, stretchable.",
+        "sentences": [
+            "Good jeans, stretchable."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 0.592,
+            "negative": 0.0,
+            "neutral": 0.408
+        }
+    },
+    {
+        "review": "Very good material, prominent color, perfect fit, very comfortable, fast delivery.",
+        "sentences": [
+            "Very good material, prominent color, perfect fit, very comfortable, fast delivery."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.9387,
+            "positive": 0.722,
+            "negative": 0.0,
+            "neutral": 0.278
+        }
+    },
+    {
+        "review": "Not as described. Quite tight. Feels like skinny fit. Not stretchable. Color much faded than shown.",
+        "sentences": [
+            "Not as described.",
+            "Quite tight.",
+            "Feels like skinny fit.",
+            "Not stretchable.",
+            "Color much faded than shown."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.6444,
+            "positive": 0.273,
+            "negative": 0.0,
+            "neutral": 0.727
+        }
+    },
+    {
+        "review": "Color is different than shown. Fabric is soft, stretchable, and comfortable. Not worth 1k.",
+        "sentences": [
+            "Color is different than shown.",
+            "Fabric is soft, stretchable, and comfortable.",
+            "Not worth 1k."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.3887,
+            "positive": 0.195,
+            "negative": 0.098,
+            "neutral": 0.707
+        }
+    },
+    {
+        "review": "Jeans.",
+        "sentences": [
+            "Jeans."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Excellent, perfect fit, value for money.",
+        "sentences": [
+            "Excellent, perfect fit, value for money."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.9062,
+            "positive": 0.86,
+            "negative": 0.0,
+            "neutral": 0.14
+        }
+    },
+    {
+        "review": "Nice",
+        "sentences": [
+            "Nice"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "good",
+            "jean",
+            "comfortable",
+            "according",
+            "brand",
+            "button",
+            "faulty",
+            "excellent",
+            "superb",
+            "stretchable"
+        ],
+        "sentiment": {
+            "compound": 0.4215,
+            "positive": 1.0,
+            "negative": 0.0,
+            "neutral": 0.0
+        }
+    },
+    {
+        "review": "Product material quality is good",
+        "sentences": [
+            "Product material quality is good"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "good",
+            "product",
+            "brand",
+            "fit",
+            "quality",
+            "color",
+            "per",
+            "price",
+            "ordered",
+            "regular"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 0.42,
+            "negative": 0.0,
+            "neutral": 0.58
+        }
+    },
+    {
+        "review": "Fade color",
+        "sentences": [
+            "Fade color"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "good",
+            "product",
+            "brand",
+            "fit",
+            "quality",
+            "color",
+            "per",
+            "price",
+            "ordered",
+            "regular"
+        ],
+        "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "negative": 0.0,
+            "neutral": 1.0
+        }
+    },
+    {
+        "review": "Good Quality jeans but I received different colour. I ordered blue colour, but it is a good choice. We can buy it.",
+        "sentences": [
+            "Good Quality jeans but I received different colour.",
+            "I ordered blue colour, but it is a good choice.",
+            "We can buy it."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "fit",
+            "comfortable",
+            "stretchable",
+            "jean",
+            "color",
+            "material",
+            "quality",
+            "colour",
+            "also"
+        ],
+        "sentiment": {
+            "compound": 0.7003,
+            "positive": 0.254,
+            "negative": 0.0,
+            "neutral": 0.746
+        }
+    },
+    {
+        "review": "Quality very poor and wrong size received",
+        "sentences": [
+            "Quality very poor and wrong size received"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": -0.7755,
+            "positive": 0.0,
+            "negative": 0.575,
+            "neutral": 0.425
+        }
+    },
+    {
+        "review": "It's best in class product! The comfort, the fitness, the style.. I'm loving it",
+        "sentences": [
+            "It's best in class product!",
+            "The comfort, the fitness, the style..",
+            "I'm loving it"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.9184,
+            "positive": 0.565,
+            "negative": 0.0,
+            "neutral": 0.435
+        }
+    },
+    {
+        "review": "Yes comfortable. Value for money, stretchable, colour ok. Thanks",
+        "sentences": [
+            "Yes comfortable.",
+            "Value for money, stretchable, colour ok.",
+            "Thanks"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.91,
+            "positive": 0.771,
+            "negative": 0.0,
+            "neutral": 0.229
+        }
+    },
+    {
+        "review": "Let's suppose my waist is 32. Buy 34. I exchanged 3 items due to size difference. Quality is good, go for it.",
+        "sentences": [
+            "Let's suppose my waist is 32.",
+            "Buy 34.",
+            "I exchanged 3 items due to size difference.",
+            "Quality is good, go for it."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.4404,
+            "positive": 0.132,
+            "negative": 0.0,
+            "neutral": 0.868
+        }
+    },
+    {
+        "review": "Waw... Very comfortable",
+        "sentences": [
+            "Waw...",
+            "Very comfortable"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "product",
+            "good",
+            "quality",
+            "comfortable",
+            "value",
+            "money",
+            "price",
+            "branded",
+            "stretchable",
+            "buy"
+        ],
+        "sentiment": {
+            "compound": 0.5563,
+            "positive": 0.642,
+            "negative": 0.0,
+            "neutral": 0.358
+        }
+    }
+]

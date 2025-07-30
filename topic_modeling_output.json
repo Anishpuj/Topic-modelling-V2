@@ -1,0 +1,1671 @@
+[
+    {
+        "topic_summaries": [
+            {
+                "topic": "Topic 1",
+                "top_words": [
+                    "samsung",
+                    "quality",
+                    "sound",
+                    "smart",
+                    "picture",
+                    "design",
+                    "32inch",
+                    "feature",
+                    "watch",
+                    "channel"
+                ],
+                "description": "Focuses on picture quality, sound, and value for money",
+                "num_reviews": 8,
+                "sentiment": {
+                    "compound": 0.8288625000000001,
+                    "positive": 0.2775,
+                    "negative": 0.019,
+                    "neutral": 0.7032499999999999
+                }
+            },
+            {
+                "topic": "Topic 2",
+                "top_words": [
+                    "good",
+                    "quality",
+                    "product",
+                    "picture",
+                    "sound",
+                    "time",
+                    "delivery",
+                    "installation",
+                    "price",
+                    "samsung"
+                ],
+                "description": "Concerns about stands, mounting, and delivery",
+                "num_reviews": 32,
+                "sentiment": {
+                    "compound": 0.33154062500000003,
+                    "positive": 0.21828124999999998,
+                    "negative": 0.06837499999999999,
+                    "neutral": 0.713375
+                }
+            },
+            {
+                "topic": "Topic 3",
+                "top_words": [
+                    "good",
+                    "quality",
+                    "picture",
+                    "installation",
+                    "led",
+                    "overall",
+                    "experience",
+                    "amazing",
+                    "still",
+                    "enough"
+                ],
+                "description": "Covers remote, smart features, and installation",
+                "num_reviews": 8,
+                "sentiment": {
+                    "compound": 0.2240375,
+                    "positive": 0.18325,
+                    "negative": 0.079375,
+                    "neutral": 0.737375
+                }
+            },
+            {
+                "topic": "Topic 4",
+                "top_words": [
+                    "remote",
+                    "quality",
+                    "come",
+                    "stand",
+                    "samsung",
+                    "installation",
+                    "picture",
+                    "good",
+                    "product",
+                    "apps"
+                ],
+                "description": "Issues with Samsung installation and service",
+                "num_reviews": 11,
+                "sentiment": {
+                    "compound": 0.4958090909090909,
+                    "positive": 0.15581818181818183,
+                    "negative": 0.03918181818181818,
+                    "neutral": 0.804909090909091
+                }
+            },
+            {
+                "topic": "Topic 5",
+                "top_words": [
+                    "good",
+                    "amazon",
+                    "product",
+                    "delivery",
+                    "thank",
+                    "nice",
+                    "tabletop",
+                    "missing",
+                    "awesome",
+                    "working"
+                ],
+                "description": "Problems with software, response time, and hanging",
+                "num_reviews": 17,
+                "sentiment": {
+                    "compound": 0.4106823529411765,
+                    "positive": 0.5084117647058823,
+                    "negative": 0.0548235294117647,
+                    "neutral": 0.436764705882353
+                }
+            }
+        ],
+        "sentiment": {
+            "compound": -0.4226,
+            "positive": 0.119,
+            "negative": 0.241,
+            "neutral": 0.641
+        }
+    },
+    {
+        "review": "Excellent product for the money,good picture and color quality.perfect size for your bedroom.But poor quality remote,I am stuck with the TV without a good remote.",
+        "sentences": [
+            "Excellent product for the money,good picture and color quality.perfect size for your bedroom.But poor quality remote,I am stuck with the TV without a good remote."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "As per price product match the level. Good sound quality and Good picture quality. Update new features.",
+        "sentences": [
+            "As per price product match the level.",
+            "Good sound quality and Good picture quality.",
+            "Update new features."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Good TV.... DELIVERY Was quick n safe... Installation was within 24 hrs.... Product is value for money... Picture n sound quality also good ... Day 1 review",
+        "sentences": [
+            "Good TV....",
+            "DELIVERY Was quick n safe...",
+            "Installation was within 24 hrs....",
+            "Product is value for money... Picture n sound quality also good ... Day 1 review"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Good Quality product. This tv has good video quality and sound. Easy to set-up. Delivered and installed on time.",
+        "sentences": [
+            "Good Quality product.",
+            "This tv has good video quality and sound.",
+            "Easy to set-up.",
+            "Delivered and installed on time."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "The TV box did not come with a stand. Samsung installation people have to order it from Mumbai which will come after 2 days. The advertisement shows the TV with a stand",
+        "sentences": [
+            "The TV box did not come with a stand.",
+            "Samsung installation people have to order it from Mumbai which will come after 2 days.",
+            "The advertisement shows the TV with a stand"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "Overall good experience. The picture quality is not amazing, but still good enough. Installation service was good (in Guwahati)",
+        "sentences": [
+            "Overall good experience.",
+            "The picture quality is not amazing, but still good enough.",
+            "Installation service was good (in Guwahati)"
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "good",
+            "quality",
+            "picture",
+            "installation",
+            "led",
+            "overall",
+            "experience",
+            "amazing",
+            "still",
+            "enough"
+        ]
+    },
+    {
+        "review": "Sound quality not that good and has bezels but okay for the price",
+        "sentences": [
+            "Sound quality not that good and has bezels but okay for the price"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Please respond to my review. And provide the which I want and need",
+        "sentences": [
+            "Please respond to my review.",
+            "And provide the which I want and need"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Good tv with price flatuation, bought at above 15000 but after some days its cost show near 13000, overall tv performance is good but we need some time when we power on the tv to use its all functions like YouTube or samsung tv.",
+        "sentences": [
+            "Good tv with price flatuation, bought at above 15000 but after some days its cost show near 13000, overall tv performance is good but we need some time when we power on the tv to use its all functions like YouTube or samsung tv."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Best product worth value money From Samsung but material is all plastic and now feels like screen is also fibre and very light weight but at 10000 worth all these features of smart tv, so go for it. But installation was challenging as only wall mount or tv top table so wall mount was 400 and TV TOP was 109*2=218.. so paid for tv top though service man asked 400 for either but latter good man as he agreed.",
+        "sentences": [
+            "Best product worth value money From Samsung but material is all plastic and now feels like screen is also fibre and very light weight but at 10000 worth all these features of smart tv, so go for it.",
+            "But installation was challenging as only wall mount or tv top table so wall mount was 400 and TV TOP was 109*2=218.. so paid for tv top though service man asked 400 for either but latter good man as he agreed."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Picture quality is not good, specially in case of songs and action sequence like speedy scenes, it's really bad",
+        "sentences": [
+            "Picture quality is not good, specially in case of songs and action sequence like speedy scenes, it's really bad"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Lack Some Basic Functionality like bluetooth But Still Very fast Operating System and amazing picture and sound quality. It's Good for using as TV and Not Second Screen For Smartphone or laptop",
+        "sentences": [
+            "Lack Some Basic Functionality like bluetooth But Still Very fast Operating System and amazing picture and sound quality.",
+            "It's Good for using as TV and Not Second Screen For Smartphone or laptop"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "The Samsung 32-inch Smart LED TV delivers amazing picture quality, clear sound, and smooth performance. The smart features work flawlessly, with quick access to apps like Netflix, YouTube, and Prime Video. Design is sleek, and the remote is easy to use. Perfect for a budget-friendly smart TV! Highly recommended!",
+        "sentences": [
+            "The Samsung 32-inch Smart LED TV delivers amazing picture quality, clear sound, and smooth performance.",
+            "The smart features work flawlessly, with quick access to apps like Netflix, YouTube, and Prime Video.",
+            "Design is sleek, and the remote is easy to use.",
+            "Perfect for a budget-friendly smart TV!",
+            "Highly recommended!"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "samsung",
+            "quality",
+            "sound",
+            "smart",
+            "picture",
+            "design",
+            "32inch",
+            "feature",
+            "watch",
+            "channel"
+        ]
+    },
+    {
+        "review": "Product is good but stand was missing.not fully satisfied",
+        "sentences": [
+            "Product is good but stand was missing.not fully satisfied"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "The item delivered. Has this been info?med to Samsung installation team. When do I expect my installation engineer? Hopefully by tomorrow",
+        "sentences": [
+            "The item delivered.",
+            "Has this been info?med to Samsung installation team.",
+            "When do I expect my installation engineer?",
+            "Hopefully by tomorrow"
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "good",
+            "quality",
+            "picture",
+            "installation",
+            "led",
+            "overall",
+            "experience",
+            "amazing",
+            "still",
+            "enough"
+        ]
+    },
+    {
+        "review": "Very nice picture sound quality & bezzer less design looking so stylist beautiful price is worthful samsung brand",
+        "sentences": [
+            "Very nice picture sound quality & bezzer less design looking so stylist beautiful price is worthful samsung brand"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "samsung",
+            "quality",
+            "sound",
+            "smart",
+            "picture",
+            "design",
+            "32inch",
+            "feature",
+            "watch",
+            "channel"
+        ]
+    },
+    {
+        "review": "Product delivered on time, but installation is taking long time from samsung service centre. Even went to direct service centre for installation but no proper response.",
+        "sentences": [
+            "Product delivered on time, but installation is taking long time from samsung service centre.",
+            "Even went to direct service centre for installation but no proper response."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Product is very good but samsung installation person isnot co operative",
+        "sentences": [
+            "Product is very good but samsung installation person isnot co operative"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "We have not received table top with this product, which is necessary for us",
+        "sentences": [
+            "We have not received table top with this product, which is necessary for us"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "I received the Samsung led, but it's stand was missing in the package.",
+        "sentences": [
+            "I received the Samsung led, but it's stand was missing in the package."
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "good",
+            "quality",
+            "picture",
+            "installation",
+            "led",
+            "overall",
+            "experience",
+            "amazing",
+            "still",
+            "enough"
+        ]
+    },
+    {
+        "review": "Felt kind of overrated spending almost 15k for such a slow processor 1 star efficiency tv there are cheaper models with almost same features and quality...this is just a brand",
+        "sentences": [
+            "Felt kind of overrated spending almost 15k for such a slow processor 1 star efficiency tv there are cheaper models with almost same features and quality...this is just a brand"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Picture quality is very poor. Faces are unrecognisable. Dolby Digital Plus is inoperative. Redmi LED is better than this one",
+        "sentences": [
+            "Picture quality is very poor.",
+            "Faces are unrecognisable.",
+            "Dolby Digital Plus is inoperative.",
+            "Redmi LED is better than this one"
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "good",
+            "quality",
+            "picture",
+            "installation",
+            "led",
+            "overall",
+            "experience",
+            "amazing",
+            "still",
+            "enough"
+        ]
+    },
+    {
+        "review": "I love this tv re recommend to buy. And samsung tv plus is a add on jam which freely available in samsung android tv which helps my child to watch live cartoon channels and my father to watch hindi news channels..",
+        "sentences": [
+            "I love this tv re recommend to buy.",
+            "And samsung tv plus is a add on jam which freely available in samsung android tv which helps my child to watch live cartoon channels and my father to watch hindi news channels.."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "samsung",
+            "quality",
+            "sound",
+            "smart",
+            "picture",
+            "design",
+            "32inch",
+            "feature",
+            "watch",
+            "channel"
+        ]
+    },
+    {
+        "review": "I got the TV and remote wasn't working, they replaced remote from samsung. Now it's perfect. I got it in offer. My friend got the same TV in higher price in a local showroom. This way Amazon is the Best.",
+        "sentences": [
+            "I got the TV and remote wasn't working, they replaced remote from samsung.",
+            "Now it's perfect.",
+            "I got it in offer.",
+            "My friend got the same TV in higher price in a local showroom.",
+            "This way Amazon is the Best."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "Picture quality is too good for a kid room size. Received installation also with in 48 hours. Quality of the product is nice.",
+        "sentences": [
+            "Picture quality is too good for a kid room size.",
+            "Received installation also with in 48 hours.",
+            "Quality of the product is nice."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Item is good but in the box not providing tv stands.Please respond to my review. And provide the which I want and need",
+        "sentences": [
+            "Item is good but in the box not providing tv stands.Please respond to my review.",
+            "And provide the which I want and need"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Software is not good, many time hanging slow response",
+        "sentences": [
+            "Software is not good, many time hanging slow response"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "TV tabletop missing during delivery",
+        "sentences": [
+            "TV tabletop missing during delivery"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "The Samsung stands out as a commendable choice in the 32-inch TV category, offering a perfect blend of compact design, impressive picture quality, and smart features",
+        "sentences": [
+            "The Samsung stands out as a commendable choice in the 32-inch TV category, offering a perfect blend of compact design, impressive picture quality, and smart features"
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "samsung",
+            "quality",
+            "sound",
+            "smart",
+            "picture",
+            "design",
+            "32inch",
+            "feature",
+            "watch",
+            "channel"
+        ]
+    },
+    {
+        "review": "There is no tv stand or something to mount on wall inside the box",
+        "sentences": [
+            "There is no tv stand or something to mount on wall inside the box"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Picture quality is very poor. Faces are unrecognisable. Dolby Digital Plus is inoperative. Redmi LED is better than this one",
+        "sentences": [
+            "Picture quality is very poor.",
+            "Faces are unrecognisable.",
+            "Dolby Digital Plus is inoperative.",
+            "Redmi LED is better than this one"
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "good",
+            "quality",
+            "picture",
+            "installation",
+            "led",
+            "overall",
+            "experience",
+            "amazing",
+            "still",
+            "enough"
+        ]
+    },
+    {
+        "review": "I love this tv re recommend to buy. And samsung tv plus is a add on jam which freely available in samsung android tv which helps my child to watch live cartoon channels and my father to watch hindi news channels..",
+        "sentences": [
+            "I love this tv re recommend to buy.",
+            "And samsung tv plus is a add on jam which freely available in samsung android tv which helps my child to watch live cartoon channels and my father to watch hindi news channels.."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "samsung",
+            "quality",
+            "sound",
+            "smart",
+            "picture",
+            "design",
+            "32inch",
+            "feature",
+            "watch",
+            "channel"
+        ]
+    },
+    {
+        "review": "Delivered and installed with satisfaction. I bought 43 inches Samsung TV and quality of Amazon delivery is good.",
+        "sentences": [
+            "Delivered and installed with satisfaction.",
+            "I bought 43 inches Samsung TV and quality of Amazon delivery is good."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Picture quality is ok,in box no mount bracket and table mount bracket,I buy this item but no one comes to install the telivision now on words they told we ordered the mounting bracket that is so , otherwise product is ok",
+        "sentences": [
+            "Picture quality is ok,in box no mount bracket and table mount bracket,I buy this item but no one comes to install the telivision now on words they told we ordered the mounting bracket that is so , otherwise product is ok"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "The Samsung 32-inch has a sleek design and decent smart features, making it a good choice for basic entertainment needs. The interface is smooth, and apps run without lag. However, the sound quality is not very impressive, it lacks depth and feels a bit low even at higher volumes. The color output also seems slightly off, with some shades appearing dull or oversaturated. While its a budget-friendly option with Samsungs reliability, those looking for vibrant picture quality and rich sound might need to consider additional speakers or a higher-end model.",
+        "sentences": [
+            "The Samsung 32-inch has a sleek design and decent smart features, making it a good choice for basic entertainment needs.",
+            "The interface is smooth, and apps run without lag.",
+            "However, the sound quality is not very impressive, it lacks depth and feels a bit low even at higher volumes.",
+            "The color output also seems slightly off, with some shades appearing dull or oversaturated.",
+            "While its a budget-friendly option with Samsungs reliability, those looking for vibrant picture quality and rich sound might need to consider additional speakers or a higher-end model."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "samsung",
+            "quality",
+            "sound",
+            "smart",
+            "picture",
+            "design",
+            "32inch",
+            "feature",
+            "watch",
+            "channel"
+        ]
+    },
+    {
+        "review": "Budget friendly samsung trust , excellent service technician, wall mount bracket or tv stand free with the product but separately at the time of installation. Good picture quality- true color, u can raise brightness by dynamic option in settings, smooth functions, very good sound. Value for money if bought 12k. Insurance is only valid if bought with tv. If u want can purchase separately but outside Ama zon or flip k a rt",
+        "sentences": [
+            "Budget friendly samsung trust , excellent service technician, wall mount bracket or tv stand free with the product but separately at the time of installation.",
+            "Good picture quality- true color, u can raise brightness by dynamic option in settings, smooth functions, very good sound.",
+            "Value for money if bought 12k.",
+            "Insurance is only valid if bought with tv.",
+            "If u want can purchase separately but outside Ama zon or flip k a rt"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "The remote of the TV was not working since installation dtd. 05.05.2025. Request for the new remote but till date not received (08.05.2025). This is very strange that a normal TV remote is not available and they are selling the product since a long years. Called to the customer care and they said the remote can be replaced on 14.05.2025.Totally dissatisfied.",
+        "sentences": [
+            "The remote of the TV was not working since installation dtd.",
+            "05.05.2025.",
+            "Request for the new remote but till date not received (08.05.2025).",
+            "This is very strange that a normal TV remote is not available and they are selling the product since a long years.",
+            "Called to the customer care and they said the remote can be replaced on 14.05.2025.Totally dissatisfied."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "Mo doubt Samsung is best in every segment & TV is fabulous & awesome",
+        "sentences": [
+            "Mo doubt Samsung is best in every segment & TV is fabulous & awesome"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Software is not good, many time hanging slow response",
+        "sentences": [
+            "Software is not good, many time hanging slow response"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Value for money. As per price product match the level. Good sound quality and Good picture quality. Update new features.",
+        "sentences": [
+            "Value for money.",
+            "As per price product match the level.",
+            "Good sound quality and Good picture quality.",
+            "Update new features."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "High quality and very clear each detail in screen will visible more than HD",
+        "sentences": [
+            "High quality and very clear each detail in screen will visible more than HD"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "No bill , packet not covered with seal , it was looking used item or returned item . No seller invoice .",
+        "sentences": [
+            "No bill , packet not covered with seal , it was looking used item or returned item .",
+            "No seller invoice ."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Picture quality is not good, specially in case of songs and action sequence like speedy scenes, it's really bad",
+        "sentences": [
+            "Picture quality is not good, specially in case of songs and action sequence like speedy scenes, it's really bad"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Vision quality is good but OS little slow",
+        "sentences": [
+            "Vision quality is good but OS little slow"
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "good",
+            "quality",
+            "picture",
+            "installation",
+            "led",
+            "overall",
+            "experience",
+            "amazing",
+            "still",
+            "enough"
+        ]
+    },
+    {
+        "review": "Budget friendly... Quick installation.. Thank you Amazon",
+        "sentences": [
+            "Budget friendly... Quick installation..",
+            "Thank you Amazon"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Good product",
+        "sentences": [
+            "Good product"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Good product , value for money",
+        "sentences": [
+            "Good product , value for money"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Lack Some Basic Functionality like bluetooth But Still Very fast Operating System and amazing picture and sound quality. It's Good for using as TV and Not Second Screen For Smartphone or laptop",
+        "sentences": [
+            "Lack Some Basic Functionality like bluetooth But Still Very fast Operating System and amazing picture and sound quality.",
+            "It's Good for using as TV and Not Second Screen For Smartphone or laptop"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "Very nice",
+        "sentences": [
+            "Very nice"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Software is not good, many time hanging slow response",
+        "sentences": [
+            "Software is not good, many time hanging slow response"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Good",
+        "sentences": [
+            "Good"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Best product",
+        "sentences": [
+            "Best product"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Good picture Quality, Amazon fast delivery thank you amazon",
+        "sentences": [
+            "Good picture Quality, Amazon fast delivery thank you amazon"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "If we talk about talk about hardware. It's a great product. But when it's comes to software, specs and electricity consumption it's totally different thing. First of all it's not a android tv. It's smart TV. They both are totally different things. In smart tv it has its own app store which has limited amount of apps to install. And there is no way to install third party apps. Worst part is it's store doesn't even have basic android tv apps. Second it's a 5 years old model so interface is a old samsung operating system. Which looks really outdated. It's energy consumption rating is 2star which is again really outdated, means it consumes more electricity. I'm giving it 2 star because seller tried to hide these things by not mentioning it in description. Overall pretty decent picture quality.",
+        "sentences": [
+            "If we talk about talk about hardware.",
+            "It's a great product.",
+            "But when it's comes to software, specs and electricity consumption it's totally different thing.",
+            "First of all it's not a android tv.",
+            "It's smart TV.",
+            "They both are totally different things.",
+            "In smart tv it has its own app store which has limited amount of apps to install.",
+            "And there is no way to install third party apps.",
+            "Worst part is it's store doesn't even have basic android tv apps.",
+            "Second it's a 5 years old model so interface is a old samsung operating system.",
+            "Which looks really outdated.",
+            "It's energy consumption rating is 2star which is again really outdated, means it consumes more electricity.",
+            "I'm giving it 2 star because seller tried to hide these things by not mentioning it in description.",
+            "Overall pretty decent picture quality."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "Super tv, nice service,he installed TV very well thank you",
+        "sentences": [
+            "Super tv, nice service,he installed TV very well thank you"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "TV tabletop missing during delivery",
+        "sentences": [
+            "TV tabletop missing during delivery"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Good TV.... DELIVERY Was quick n safe... Installation was within 24 hrs.... Product is value for money... Picture n sound quality also good ... Day 1 review",
+        "sentences": [
+            "Good TV....",
+            "DELIVERY Was quick n safe...",
+            "Installation was within 24 hrs....",
+            "Product is value for money... Picture n sound quality also good ... Day 1 review"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Nice tv within the budget. Sound quality is good, for picture quality I had to attach hdmi cable from set top box to tv. After that quality is pretty good.",
+        "sentences": [
+            "Nice tv within the budget.",
+            "Sound quality is good, for picture quality I had to attach hdmi cable from set top box to tv.",
+            "After that quality is pretty good."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Totally dissatisfied.The remote of the TV was not working since installation dtd. 05.05.2025. Request for the new remote but till date not received (08.05.2025). This is very strange that a normal TV remote is not available and they are selling the product since a long years. Called to the customer care and they said the remote can be replaced on 14.05.2025.",
+        "sentences": [
+            "Totally dissatisfied.The remote of the TV was not working since installation dtd.",
+            "05.05.2025.",
+            "Request for the new remote but till date not received (08.05.2025).",
+            "This is very strange that a normal TV remote is not available and they are selling the product since a long years.",
+            "Called to the customer care and they said the remote can be replaced on 14.05.2025."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "Sound quality not that good and has bezels but okay for the price",
+        "sentences": [
+            "Sound quality not that good and has bezels but okay for the price"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Overall good experience. The picture quality is not amazing, but still good enough. Installation service was good (in Guwahati)",
+        "sentences": [
+            "Overall good experience.",
+            "The picture quality is not amazing, but still good enough.",
+            "Installation service was good (in Guwahati)"
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "good",
+            "quality",
+            "picture",
+            "installation",
+            "led",
+            "overall",
+            "experience",
+            "amazing",
+            "still",
+            "enough"
+        ]
+    },
+    {
+        "review": "The TV box did not come with a stand. Samsung installation people have to order it from Mumbai which will come after 2 days. The advertisement shows the TV with a stand",
+        "sentences": [
+            "The TV box did not come with a stand.",
+            "Samsung installation people have to order it from Mumbai which will come after 2 days.",
+            "The advertisement shows the TV with a stand"
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "The Samsung 32-inch has a sleek design and decent smart features, making it a good choice for basic entertainment needs. The interface is smooth, and apps run without lag. However, the sound quality is not very impressive, it lacks depth and feels a bit low even at higher volumes. The color output also seems slightly off, with some shades appearing dull or oversaturated. While its a budget-friendly option with Samsungs reliability, those looking for vibrant picture quality and rich sound might need to consider additional speakers or a higher-end model.",
+        "sentences": [
+            "The Samsung 32-inch has a sleek design and decent smart features, making it a good choice for basic entertainment needs.",
+            "The interface is smooth, and apps run without lag.",
+            "However, the sound quality is not very impressive, it lacks depth and feels a bit low even at higher volumes.",
+            "The color output also seems slightly off, with some shades appearing dull or oversaturated.",
+            "While its a budget-friendly option with Samsungs reliability, those looking for vibrant picture quality and rich sound might need to consider additional speakers or a higher-end model."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "samsung",
+            "quality",
+            "sound",
+            "smart",
+            "picture",
+            "design",
+            "32inch",
+            "feature",
+            "watch",
+            "channel"
+        ]
+    },
+    {
+        "review": "Excellent picture quality and sound !! Definitely recommended",
+        "sentences": [
+            "Excellent picture quality and sound !",
+            "!",
+            "Definitely recommended"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Samsung led tv.nice sound and good picture quality.",
+        "sentences": [
+            "Samsung led tv.nice sound and good picture quality."
+        ],
+        "topic": "Topic 1",
+        "top_words": [
+            "samsung",
+            "quality",
+            "sound",
+            "smart",
+            "picture",
+            "design",
+            "32inch",
+            "feature",
+            "watch",
+            "channel"
+        ]
+    },
+    {
+        "review": "Good tv with price flatuation, bought at above 15000 but after some days its cost show near 13000, overall tv performance is good but we need some time when we power on the tv to use its all functions like YouTube or samsung tv.",
+        "sentences": [
+            "Good tv with price flatuation, bought at above 15000 but after some days its cost show near 13000, overall tv performance is good but we need some time when we power on the tv to use its all functions like YouTube or samsung tv."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Product is good but the delivery agent didn't open the box by himself. There is a clear instruction before delivery they need to open, show off and later OTP has to be submitted against successful delivery. But those delivery agents disagree to do so.",
+        "sentences": [
+            "Product is good but the delivery agent didn't open the box by himself.",
+            "There is a clear instruction before delivery they need to open, show off and later OTP has to be submitted against successful delivery.",
+            "But those delivery agents disagree to do so."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Tv stand and assembly not provided in box",
+        "sentences": [
+            "Tv stand and assembly not provided in box"
+        ],
+        "topic": "Topic 3",
+        "top_words": [
+            "good",
+            "quality",
+            "picture",
+            "installation",
+            "led",
+            "overall",
+            "experience",
+            "amazing",
+            "still",
+            "enough"
+        ]
+    },
+    {
+        "review": "Good Quality product. This tv has good video quality and sound. Easy to set-up. Delivered and installed on time.",
+        "sentences": [
+            "Good Quality product.",
+            "This tv has good video quality and sound.",
+            "Easy to set-up.",
+            "Delivered and installed on time."
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Good",
+        "sentences": [
+            "Good"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Good working",
+        "sentences": [
+            "Good working"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "I have bought this TV as per my Mom recommendation. Overall the TV is awesome in this price range... Thanks Amazon for this wonderful deal.",
+        "sentences": [
+            "I have bought this TV as per my Mom recommendation.",
+            "Overall the TV is awesome in this price range...",
+            "Thanks Amazon for this wonderful deal."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Picture quality not upto the mark",
+        "sentences": [
+            "Picture quality not upto the mark"
+        ],
+        "topic": "Topic 2",
+        "top_words": [
+            "good",
+            "quality",
+            "product",
+            "picture",
+            "sound",
+            "time",
+            "delivery",
+            "installation",
+            "price",
+            "samsung"
+        ]
+    },
+    {
+        "review": "Nice",
+        "sentences": [
+            "Nice"
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    },
+    {
+        "review": "Quality is good . 4 stars for not having google play store*** for apps . Hope its os will get apps to run as monitor more than tv. A bit slow at speed in comparison to modern tv. Felt like old smart tv.sound quality is enough for a single room .voice command was expected .",
+        "sentences": [
+            "Quality is good .",
+            "4 stars for not having google play store*** for apps .",
+            "Hope its os will get apps to run as monitor more than tv.",
+            "A bit slow at speed in comparison to modern tv.",
+            "Felt like old smart tv.sound quality is enough for a single room .voice command was expected ."
+        ],
+        "topic": "Topic 4",
+        "top_words": [
+            "remote",
+            "quality",
+            "come",
+            "stand",
+            "samsung",
+            "installation",
+            "picture",
+            "good",
+            "product",
+            "apps"
+        ]
+    },
+    {
+        "review": "In a month remote is not working..",
+        "sentences": [
+            "In a month remote is not working.."
+        ],
+        "topic": "Topic 5",
+        "top_words": [
+            "good",
+            "amazon",
+            "product",
+            "delivery",
+            "thank",
+            "nice",
+            "tabletop",
+            "missing",
+            "awesome",
+            "working"
+        ]
+    }
+]
